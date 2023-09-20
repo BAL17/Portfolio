@@ -1,13 +1,14 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
+
+import LandingPage from "./LandingPage/LandingPage.Jsx";
 
 function App() {
   return (
     <>
       {/* <BrowserRouter>
         <Routes> */}
-          <h1> hello world </h1>
+          <LandingPage/>
         {/* </Routes>
       </BrowserRouter> */}
     </>
