@@ -11,6 +11,11 @@ export default {
       colors: {
         Nero: "#1C1C1C",
         GainsBoro: "#E6E6E6",
+        darkblue: "#437FC7",
+        skyblue: "#6DAFFE",
+        greywhite: "#EDF6FF",
+        white: "#FFFFFF",
+        brownish: "#B9732f"
       },
     },
   },
