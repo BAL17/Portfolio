@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import MainBody from "./Mainbody/MainBody";
-import ProjectDisplay from "../ProjectSection/ProjectDisplay";
+import ProjectDisplay from "./ProjectSection/ProjectDisplay";
 import "./LandingPage.css";
 const LandingPage = () => {
   return (

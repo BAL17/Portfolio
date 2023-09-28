@@ -1,16 +1,18 @@
-import React from "react"
+import React, {useContext} from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import LandingPage from "./LandingPage/LandingPage.Jsx";
+import { ProjectProvider } from "./LandingPage/ProjectSection/ProjectContext.jsx";
+import LandingPage from "./LandingPage/LandingPage.jsx";
 
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
-        <Routes> */}
+      {/* <BrowserRouter> */}
+        <ProjectProvider>
+        {/* <Routes> */}
           <LandingPage/>
-        {/* </Routes>
-      </BrowserRouter> */}
+        {/* </Routes> */}
+      </ProjectProvider>
+      {/* </BrowserRouter> */}
     </>
   );
 }
