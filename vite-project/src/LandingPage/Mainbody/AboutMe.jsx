@@ -1,12 +1,10 @@
-import SideBar from "../SideBar/SideBar";
-
-const MainBody = () => {
+const AboutMe = () => {
   return (
     <>
       {/* THIS WILL BE LEFT SIDE DIV FOR INTRO */}
-      <div className=" flex flex-col justify-center items-center border-2 border-yellow-700 h-screen w-1/2">
+      <div className=" flex flex-col justify-center items-center  h-screen w-1/2">
         <div className="flex">
-          <h1 className="text-2xl text-black">
+          <h1 className="text-4xl text-black">
             Hello 🌊, I'm <strong className="text-skyblue">Brandon</strong>
           </h1>
         </div>
@@ -36,4 +34,4 @@ const MainBody = () => {
   );
 };
 
-export default MainBody;
+export default AboutMe;

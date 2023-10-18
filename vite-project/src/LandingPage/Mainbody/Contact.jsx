@@ -3,11 +3,11 @@ import GitHub from "../../assets/github.svg";
 import Gmail from "../../assets/gmail.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Doc from "../../assets/document-text-outline.svg";
-const Header = () => {
+const Contact = () => {
   return (
     <>
       {/* DIV FOR ICONS */}
-      <div className="flex gap-6 opacity-60">
+      <div className="flex gap-2 opacity-60">
         <a
           href="mailto:brandonws20@gmail.com"
           target="_blank"
@@ -43,4 +43,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Contact;
