@@ -4,9 +4,9 @@ import SideBarHeader from "./SideBarHeader.jsx";
 const SideBar = () => {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-44">
         <aside className="fixed h-full w-44 overflow-y-auto bg-[#f1f1f1] ">
-          <div className="flex flex-col justify-center items-center border-2 h-32 p-1 cursor-pointer hover:border-x-4 border-x-slate-50">
+          <div className="flex flex-col justify-center items-center border-b-4 h-32 p-1 cursor-pointer hover:border-x-4 border-x-slate-50">
             <SideBarHeader />
           </div>
           <div
@@ -14,6 +14,12 @@ const SideBar = () => {
             className="flex justify-center items-center h-24 w-full text-xl cursor-pointer hover:border-x-4 border-indigo-500"
           >
             <h1>About</h1>
+          </div>
+          <div
+            id="experience"
+            className=" flex justify-center items-center  h-24 w-full text-xl cursor-pointer hover:border-x-4 border-indigo-500"
+          >
+            <h1>Experience</h1>
           </div>
           <div
             id="projects"

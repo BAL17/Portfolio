@@ -1,31 +1,42 @@
 import React from "react";
-import SideBar from "./SideBar/SideBar";
-import AboutMe from "./Mainbody/AboutMe";
-import ProjectDisplay from "./ProjectSection/ProjectDisplay";
-import Contact from "./Mainbody/Contact";
-import Footer from "./Footer/Footer";
+import SideBar from "./SideBar/SideBar.jsx";
+import AboutMe from "./Mainbody/AboutMe.jsx";
+import Experience from "./Mainbody/Experience.jsx";
+import Skills from "./Mainbody/Skills.jsx";
+import ProjectDisplay from "./Mainbody/ProjectDisplay.jsx";
+import Contact from "./Mainbody/Contact.jsx";
+import Footer from "./Footer/Footer.jsx";
 import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
     <>
-      <div className="flex flex-col h-screen">
-
-        <div className="flex-1 flex ">
+      <div className="flex flex-col h-screen ">
+        <div className="flex-1 flex bg-[#DDE6ED]">
           <SideBar />
 
           <div className="flex-1 overflow-y-auto">
-            <div className="flex border-2 h-fit w-full ">
+            <div className="flex flex-col border-2 h-fit w-full ">
               <AboutMe />
             </div>
-            
-            <div className="flex">
+
+            <div className="flex flex-col justify-center border-emerald-100">
+              <Experience />
+            </div>
+
+            <div className="flex flex-col justify-center w-full border-orange-300">
+              <Skills />
+            </div>
+
+            <div className="flex flex-col justify-center w-full">
               <ProjectDisplay />
             </div>
 
-            <div>
-              <Contact/>
+            <div className="flex flex-col justify-center border-2 w-full">
+              <Contact />
             </div>
+
+            <div></div>
           </div>
         </div>
 
