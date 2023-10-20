@@ -1,12 +1,12 @@
-import USArmy from "../../assets/us-army.svg";
-import Tangs from "../../assets/tangs-logo.svg"
+import USArmy from "../../assets/ExperienceSectionIcons/us-army.svg";
+import Tangs from "../../assets/ExperienceSectionIcons/tangs-logo.svg"
 
 const Experience = () => {
     return (
       <>
         <div
           id="experienceHeader"
-          className="border-2 w-full bg-slate-500 p-2 mb-10"
+          className="w-full bg-slate-500 p-2 mb-10"
         >
           <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
             Experience
