@@ -1,4 +1,5 @@
 import React from "react";
+
 import SideBar from "./SideBar/SideBar.jsx";
 import AboutMe from "./Mainbody/AboutMe.jsx";
 import Experience from "./Mainbody/Experience.jsx";
@@ -17,27 +18,27 @@ const LandingPage = () => {
           <SideBar />
 
           <div className="flex-1 overflow-y-auto mb-10">
-            <div className="flex flex-col border-2 h-fit w-full ">
+            <div id="About" className="flex flex-col border-2 h-fit w-full ">
               <AboutMe />
             </div>
 
-            <div className="flex flex-col justify-center w-full">
+            <div id="Experience" className="flex flex-col justify-center w-full">
               <Experience />
             </div>
 
-            <div className="flex flex-col justify-center w-full">
+            <div id="Projects" className="flex flex-col justify-center w-full">
               <ProjectDisplay />
             </div>
 
-            <div className="flex flex-col justify-center w-full">
+            <div id="Skills" className="flex flex-col justify-center w-full">
               <Skills />
             </div>
 
-            <div className="flex flex-col justify-center w-full">
+            <div id="Education" className="flex flex-col justify-center w-full">
               <Education />
             </div>
 
-            <div className="flex flex-col justify-center w-full">
+            <div id="Contact" className="flex flex-col justify-center w-full">
               <Contact />
             </div>
 

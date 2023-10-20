@@ -1,7 +1,7 @@
 import React from "react";
-import GitHub from "../../assets/ContactSectionIcons/github.svg";
-import Gmail from "../../assets/ContactSectionIcons/gmail.svg";
-import LinkedIn from "../../assets/ContactSectionIcons/linkedin.svg";
+import GitHub from "../../assets/DevIcons/icons8-github.svg";
+import Gmail from "../../assets/ContactSectionIcons/icons8-gmail.svg";
+import LinkedIn from "../../assets/ContactSectionIcons/icons8-linkedin.svg";
 
 const Contact = () => {
   return (

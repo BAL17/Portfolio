@@ -24,7 +24,7 @@ import GITHUB from "../../assets/DevIcons/icons8-github.svg"
 const Skills = () => {
   return (
     <>
-      <div id="skillsHeader" className="w-full bg-slate-500 p-2 mb-10">
+      <div id="skillsHeader" className="w-full bg-slate-500 p-2 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Skills
         </h1>
