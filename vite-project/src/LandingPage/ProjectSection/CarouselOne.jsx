@@ -18,6 +18,11 @@ const CarouselOne = () => {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  const ImgStyling = {
+    height: "20rem",
+    width: "50rem",
+  };
+
   const nextSlide = () => {
     setCurrentImageIndex((currentImageIndex + 1) % images.length);
   };
@@ -28,7 +33,7 @@ const CarouselOne = () => {
 
   return (
     <div className="image-slider">
-      <img src={images[currentImageIndex]} alt={`Slide ${currentImageIndex + 1}`} />
+      <img src={images[currentImageIndex]} alt={`Slide ${currentImageIndex + 1}`} style={ImgStyling}/>
       <div className='flex justify-between mt-1'>
       <img onClick={prevSlide} src={LeftArrow}></img>
       <img onClick={nextSlide} src={RightArrow}></img>

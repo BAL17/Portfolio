@@ -2,10 +2,19 @@ import React, { useState, useContext } from "react";
 import RightArrow from "../../assets/BSRightArrow.svg";
 import LeftArrow from "../../assets/BSLeftArrow.svg";
 //import images for REI
+import BITWIZ from "../../assets/REI/bitwiz.png"
+import PRODUCTS from "../../assets/REI/products.png";
+import TOPPAGE from "../../assets/REI/toppage.png";
+import CARTMOD from "../../assets/REI/addtocart.png";
 
 const CarouselThree = () => {
-  const images = [, , , ,];
+  const images = [ TOPPAGE, CARTMOD, PRODUCTS, BITWIZ,];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const ImgStyling = {
+    height: "20rem",
+    width: "50rem",
+  };
 
   const nextSlide = () => {
     setCurrentImageIndex((currentImageIndex + 1) % images.length);
@@ -23,6 +32,7 @@ const CarouselThree = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
+          style={ImgStyling}
         />
         <div className="flex justify-between mt-1">
           <img onClick={prevSlide} src={LeftArrow}></img>
