@@ -9,16 +9,13 @@ export default {
         robot: ["Roboto Serif", "sans serif"],
       },
       colors: {
-        Nero: "#1C1C1C",
-        GainsBoro: "#E6E6E6",
-        darkblue: "#437FC7",
-        skyblue: "#6DAFFE",
-        greywhite: "#EDF6FF",
-        white: "#FFFFFF",
-        brownish: "#B9732f"
+        text: "#fffdfa",
+        background: "#000000",
+        primary: "#fad58e",
+        secondary: "#161616",
+        accent: "#f5a50f",
       },
     },
   },
   plugins: [],
 };
-

@@ -9,7 +9,7 @@ const Education = () => {
   }
   return (
     <>
-      <div id="educationHeader" className="w-full bg-slate-500 p-2 mb-10 mt-10">
+      <div id="educationHeader" className="w-full bg-lGrey p-2 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Education
         </h1>
@@ -22,7 +22,7 @@ const Education = () => {
         {/* CCU CARD  */}
         <div
           id="CCUCard"
-          className="flex flex-col w-2/5 h-fit border-2 shadow-lg bg-white"
+          className="flex flex-col w-2/5 h-fit border-2 shadow-lg bg-CardBG"
         >
           <div
             id=""

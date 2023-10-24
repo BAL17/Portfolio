@@ -11,11 +11,6 @@ const CarouselThree = () => {
   const images = [ TOPPAGE, CARTMOD, PRODUCTS, BITWIZ,];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const ImgStyling = {
-    height: "20rem",
-    width: "50rem",
-  };
-
   const nextSlide = () => {
     setCurrentImageIndex((currentImageIndex + 1) % images.length);
   };
@@ -32,7 +27,7 @@ const CarouselThree = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
-          style={ImgStyling}
+          className="object-cover h-48 w-96"
         />
         <div className="flex justify-between mt-1">
           <img onClick={prevSlide} src={LeftArrow}></img>

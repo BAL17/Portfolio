@@ -4,7 +4,7 @@ import Tangs from "../../assets/ExperienceSectionIcons/tangs-logo.svg";
 const Experience = () => {
   return (
     <>
-      <div id="experienceHeader" className="w-full bg-slate-500 p-2 mb-10">
+      <div id="experienceHeader" className="w-full bg-[#A5C9CA] p-2 mb-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Experience
         </h1>
@@ -14,11 +14,11 @@ const Experience = () => {
         {/* ENGINEERING MANAGER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardOne"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 shadow-lg bg-white"
+          className="flex flex-col justify-center w-1/2 h-fit border-2 shadow-lg bg-[#395B64]"
         >
           <div
             id="armyCardOneHeader"
-            className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2"
+            className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2 text-white"
           >
             <div className="flex items-center gap-2">
               <img src={USArmy}></img>
@@ -39,7 +39,10 @@ const Experience = () => {
             </li>
           </div>
 
-          <div id="cardOneFooter" className="w-full h-fit bg-slate-50 mt-3 p-3">
+          <div
+            id="cardOneFooter"
+            className="w-full h-fit bg-[#86888A] mt-3 p-3"
+          >
             <h1>
               May 2019 - September 2023 | Fort Carson, CO - Fort Hood, TX{" "}
             </h1>
@@ -111,7 +114,7 @@ const Experience = () => {
             id="combatEngineerFooter"
             className="w-full h-fit bg-slate-50 mt-3 p-3"
           >
-            <h1> Jan 2016 - Jan 2017 | Fort Polk, LA </h1>
+            <h1> January 2016 - January 2017 | Fort Polk, LA </h1>
           </div>
         </div>
 
@@ -136,9 +139,10 @@ const Experience = () => {
 
           <div id="tangsDesc" className="w-full h-fit mt-3 ">
             <li className="ml-5">
-              In my role at Tang's Pacific Bistro, I managed cash and card
-              payments, ensured efficient restaurant operations, and handled
-              reservations and inquiries for exceptional customer service.
+              Delivered exceptional customer service while efficiently managing
+              restaurant resources, overseeing payment collection, and
+              facilitating reservations, ensuring a seamless dining experience
+              for patrons.
             </li>
           </div>
 

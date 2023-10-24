@@ -17,14 +17,14 @@ import FIGMA from "../../assets/DevIcons/icons8-figma.svg";
 import NODE from "../../assets/DevIcons/icons8-nodejs.svg";
 import EXP from "../../assets/DevIcons/icons8-express-js.svg";
 import SLACK from "../../assets/DevIcons/icons8-slack.svg";
-import VITEST from "../../assets/DevIcons/vitest.svg"
-import WP from "../../assets/DevIcons/icons8-webpack.svg"
-import GITHUB from "../../assets/DevIcons/icons8-github.svg"
+import VITEST from "../../assets/DevIcons/vitest.svg";
+import WP from "../../assets/DevIcons/icons8-webpack.svg";
+import GITHUB from "../../assets/DevIcons/icons8-github.svg";
 
 const Skills = () => {
   return (
     <>
-      <div id="skillsHeader" className="w-full bg-slate-500 p-2 mb-10 mt-10">
+      <div id="skillsHeader" className="w-full bg-HeaderBG p-2 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Skills
         </h1>
@@ -41,14 +41,37 @@ const Skills = () => {
             <h1 className="flex text-2xl p-2">FRONTEND</h1>
           </div>
 
-          <div className="flex justify-center gap-10 mt-3">
-            <img src={ReactIcon}></img>
-            <img src={JS}></img>
-            <img src={CSS}></img>
-            <img src={HTML}></img>
-            <img src={JQUERY}></img>
-            <img src={TLWIND}></img>
-            <img src={FIGMA}></img>
+          <div className="flex justify-center items-center gap-10 mt-3">
+            <div className="flex flex-col items-center">
+              <img src={ReactIcon}></img>
+              <h3>React</h3>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img src={JS}></img>
+              <h3>JavaScript ES6+</h3>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img src={CSS}></img>
+              <h3>CSS3</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={HTML}></img>
+              <h3>HTML5</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={JQUERY}></img>
+              <h3>JQuery</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={TLWIND}></img>
+              <h3>TailwindCSS</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={FIGMA}></img>
+              <h3>Figma</h3>
+            </div>
           </div>
         </div>
 
@@ -61,11 +84,23 @@ const Skills = () => {
             <h1 className="flex text-2xl p-2">BACKEND</h1>
           </div>
 
-          <div className="flex justify-center gap-10 mt-3 p-2">
-            <img src={NODE}></img>
-            <img src={EXP}></img>
-            <img src={MGDB}></img>
-            <img src={PSQL}></img>
+          <div className="flex justify-center items-center gap-10 mt-3 p-2">
+            <div className="flex flex-col items-center">
+              <img src={NODE}></img>
+              <h3>NodeJS</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={EXP}></img>
+              <h3>ExpressJS</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={PSQL}></img>
+              <h3>PostgresSQL</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={MGDB}></img>
+              <h3>MongoDB</h3>
+            </div>
           </div>
         </div>
 
@@ -78,10 +113,19 @@ const Skills = () => {
             <h1 className="flex text-2xl p-2">TESTING/DEPLOYMENT</h1>
           </div>
 
-          <div className="flex justify-center gap-10 mt-3">
-            <img src={DOCKER}></img>
-            <img src={VITEST}></img>
-            <img src={WP}></img>
+          <div className="flex justify-center items-center gap-10 mt-3">
+            <div className="flex flex-col items-center">
+              <img src={DOCKER}></img>
+              <h3>Docker</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={VITEST}></img>
+              <h3>Vitest</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={WP}></img>
+              <h3>Webpack</h3>
+            </div>
           </div>
         </div>
         {/* PROJECT MANAGEMENT */}
@@ -93,10 +137,19 @@ const Skills = () => {
             <h1 className="flex text-2xl p-2 ">PROJECT MANAGEMENT</h1>
           </div>
 
-          <div className="flex justify-center gap-10 mt-3">
-            <img src={GITLAB}></img>
-            <img src={JIRA}></img>
-            <img src={SLACK}></img>
+          <div className="flex justify-center items-center gap-10 mt-3">
+            <div className="flex flex-col items-center">
+              <img src={GITLAB}></img>
+              <h3>GitLab</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={JIRA}></img>
+              <h3>Jira</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={SLACK}></img>
+              <h3>Slack</h3>
+            </div>
           </div>
         </div>
 
@@ -109,12 +162,27 @@ const Skills = () => {
             <h1 className="flex text-2xl p-2 ">OTHER</h1>
           </div>
 
-          <div className="flex justify-center gap-10 mt-3">
-            <img src={MACOS}></img>
-            <img src={LINUX}></img>
-            <img src={WINDOWS}></img>
-            <img src={GIT}></img>
-            <img src={GITHUB}></img>
+          <div className="flex justify-center items-center gap-10 mt-3">
+            <div className="flex flex-col items-center">
+              <img src={MACOS}></img>
+              <h3>MacOS</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={LINUX}></img>
+              <h3>Linux</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={WINDOWS}></img>
+              <h3>Windows</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={GIT}></img>
+              <h3>GIT</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={GITHUB}></img>
+              <h3>Github</h3>
+            </div>
           </div>
         </div>
       </div>

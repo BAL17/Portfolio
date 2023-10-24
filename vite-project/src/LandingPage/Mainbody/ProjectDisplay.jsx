@@ -23,7 +23,7 @@ const ProjectDisplay = () => {
 
       <div
         id="projectCardContainers"
-        className="flex justify-evenly gap-2 mx-5 p-2"
+        className="flex justify-evenly gap-2 mx-2 p-2"
       >
         {/* INSIGHT CARD  */}
         <div
@@ -93,8 +93,7 @@ const ProjectDisplay = () => {
               className="flex justify-center w-full h-fit mt-3 "
             >
               <li className="text-md ml-3 mb-3">
-                A full-stack web-application. Pixel-perfect replica of Nvidia's
-                RTX 4060 graphic card product page.
+                Pixel-perfect replica of Nvidia's RTX 4060 graphic card product page.
               </li>
             </div>
           </div>
@@ -138,8 +137,7 @@ const ProjectDisplay = () => {
               className="flex justify-center w-full h-fit mt-3 "
             >
               <li className="text-md ml-3 mb-3">
-                A full-stack web-application. Pixel-perfect replica of REI's
-                Timbuk2 Muttmover Luxe Pack product page.
+                Pixel-perfect replica of REI's Timbuk2 Muttmover Luxe Pack product page.
               </li>
             </div>
           </div>

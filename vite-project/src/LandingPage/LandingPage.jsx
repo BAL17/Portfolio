@@ -14,15 +14,18 @@ const LandingPage = () => {
   return (
     <>
       <div className="flex flex-col h-screen ">
-        <div className="flex-1 flex bg-[#DDE6ED]">
+        <div className="flex-1 flex bg-background">
           <SideBar />
 
           <div className="flex-1 overflow-y-auto mb-10">
-            <div id="About" className="flex flex-col border-2 h-fit w-full ">
+            <div id="About" className="flex flex-col h-fit w-full ">
               <AboutMe />
             </div>
 
-            <div id="Experience" className="flex flex-col justify-center w-full">
+            <div
+              id="Experience"
+              className="flex flex-col justify-center w-full"
+            >
               <Experience />
             </div>
 
@@ -41,7 +44,6 @@ const LandingPage = () => {
             <div id="Contact" className="flex flex-col justify-center w-full">
               <Contact />
             </div>
-
           </div>
         </div>
 
