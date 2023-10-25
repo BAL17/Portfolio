@@ -5,7 +5,7 @@ const SideBar = () => {
   return (
     <>
       <div className="flex flex-col w-44">
-      <aside className="fixed h-full w-44 overflow-y-auto bg-secbg text-text ">
+        <aside className="fixed h-full w-44 overflow-y-auto bg-secbg text-text ">
           <div className="flex flex-col justify-center items-center h-40 p-1 cursor-pointer hover:border-x-2 border-x-slate-50">
             <SideBarHeader />
           </div>
@@ -48,6 +48,23 @@ const SideBar = () => {
               <h1>Projects</h1>
             </div>
           </Link>
+
+          <Link
+            to="Homelab"
+            spy={true}
+            smooth={true}
+            offset={10}
+            duration={500}
+          >
+            <div
+              id="homelab"
+              className=" flex justify-center items-center  h-24 w-full text-xl cursor-pointer hover:border-l-4
+              border-accent"
+            >
+              <h1>Home Lab</h1>
+            </div>
+          </Link>
+
           <Link to="Skills" spy={true} smooth={true} offset={10} duration={500}>
             <div
               id="skills"

@@ -23,8 +23,7 @@ const LandingPage = () => {
             <div id="About" className="flex flex-col h-fit w-full ">
               <AboutMe />
             </div>
-            
-            
+
             <div className="flex flex-col h-fit w-full ">
               <AboutMeDesc />
             </div>
@@ -38,6 +37,10 @@ const LandingPage = () => {
 
             <div id="Projects" className="flex flex-col justify-center w-full">
               <ProjectDisplay />
+            </div>
+            
+            <div id="Homelab" className="flex flex-col justify-center w-full">
+              <HomeLab />
             </div>
 
             <div id="Skills" className="flex flex-col justify-center w-full">
