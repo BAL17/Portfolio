@@ -9,7 +9,10 @@ const Education = () => {
   }
   return (
     <>
-      <div id="educationHeader" className="w-full bg-headerbg p-3 mb-10 mt-10">
+      <div
+        id="educationHeader"
+        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2"
+      >
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Education
         </h1>
@@ -34,18 +37,23 @@ const Education = () => {
             </div>
           </div>
 
-          <div id="CCUCardDesc" className="w-full h-fit mt-3 ">
-            <li className="text-md ml-2 mb-3">
+          <div id="CCUCardDesc" className="flex justify-center w-full h-fit mt-3 ">
+            <span className="flex text-md ml-2 mb-3">
               Bachelor of Science in Information Systems Management: System
               Analyst
-            </li>
-
-            {/* <li className="ml-5"></li>
-            <li className="ml-5"></li> */}
+            </span>
           </div>
 
-          <div id="CCUFooter" className="w-full h-fit bg-cardbg mt-3 p-3">
-            <h1> June 2020 - May 2025 | Remote, USA </h1>
+          <div
+            id="CCUFooter"
+            className="flex justify-between w-full h-fit bg-cardbg mt-3 p-3"
+          >
+            <div className="flex">
+              <h1> June 2020 - May 2025 </h1>
+            </div>
+            <div className="flex">
+              <h1> Remote, USA </h1>
+            </div>
           </div>
         </div>
 
@@ -64,11 +72,11 @@ const Education = () => {
             </div>
           </div>
 
-          <div id="GalvanizeDesc" className="w-full h-fit mt-3 ">
-            <li className="text-md ml-2 mb-3">
+          <div id="GalvanizeDesc" className="flex justify-center w-full h-fit mt-3 ">
+            <span className="flex text-md ml-2 mb-3">
               Operation Level-Up: Advanced Software Engineering Immersive
               Program
-            </li>
+            </span>
 
             {/* <li className="ml-3 text-sm">
               18-week software engineering immersive program with over 1000+
@@ -80,8 +88,13 @@ const Education = () => {
             </li> */}
           </div>
 
-          <div id="cardOneFooter" className="w-full h-fit bg-cardbg mt-3 p-3">
-            <h1>May 2023 - Aug 2023 | Remote, USA </h1>
+          <div id="galvanizeFooter" className="flex justify-between w-full h-fit bg-cardbg mt-3 p-3">
+            <div className="flex">
+              <h1>May 2023 - Aug 2023 </h1>
+            </div>
+            <div className="flex">
+              <h1>Remote, USA</h1>
+            </div>
           </div>
         </div>
       </div>

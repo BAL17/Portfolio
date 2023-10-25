@@ -30,7 +30,7 @@ const ProjectDisplay = () => {
           id="insightCard"
           className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
+          <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
               <CarouselOne />
             </div>
@@ -77,7 +77,7 @@ const ProjectDisplay = () => {
           id="nvidiaCard"
           className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
+          <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
               <CarouselTwo />
             </div>
@@ -122,7 +122,7 @@ const ProjectDisplay = () => {
           id="reiCard"
           className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
+          <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
               <CarouselThree />
             </div>

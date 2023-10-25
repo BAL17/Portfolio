@@ -44,9 +44,14 @@ const Experience = () => {
 
           <div
             id="cardOneFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-center"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
           >
-            <h1>May 2019 - September 2023 | Fort Carson, CO - Fort Hood, TX</h1>
+            <div className="flex ">
+              <h1>May 2019 - September 2023</h1>
+            </div>
+            <div className="flex">
+              <h1> Fort Carson, CO - Fort Hood, TX</h1>
+            </div>
           </div>
         </div>
 
@@ -80,9 +85,14 @@ const Experience = () => {
 
           <div
             id="cardTwoFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-center"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
           >
-            <h1> January 2017 - May 2019 | Fort Polk, LA </h1>
+            <div className="flex">
+              <h1>January 2017 - May 2019</h1>
+            </div>
+            <div className="flex">
+              <h1> Fort Polk, LA </h1>
+            </div>
           </div>
         </div>
 
@@ -116,9 +126,14 @@ const Experience = () => {
 
           <div
             id="combatEngineerFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-center"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
           >
-            <h1> January 2016 - January 2017 | Fort Polk, LA </h1>
+            <div className="flex">
+              <h1> January 2016 - January 2017</h1>
+            </div>
+            <div className="flex">
+              <h1> Fort Polk, LA</h1>
+            </div>
           </div>
         </div>
 
@@ -131,7 +146,7 @@ const Experience = () => {
             id="tangsHeader"
             className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <img src={Tangs} className="ml-2"></img>
               <span className="text-xl">Tang's Pacific Bistro</span>
             </div>
@@ -152,9 +167,14 @@ const Experience = () => {
 
           <div
             id="tangsFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-center"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
           >
-            <h1> July 2014 - November 2015 | Fort Worth, TX </h1>
+            <div className="flex">
+              <h1> July 2014 - November 2015 </h1>
+            </div>
+            <div className="flex">
+              <h1>Fort Worth, TX</h1>
+            </div>
           </div>
         </div>
       </div>

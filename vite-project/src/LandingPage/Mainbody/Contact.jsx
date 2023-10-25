@@ -6,7 +6,7 @@ import LinkedIn from "../../assets/ContactSectionIcons/icons8-linkedin.svg";
 const Contact = () => {
   return (
     <>
-      <div id="contactHeader" className="w-full bg-headerbg p-3 mb-10 mt-10">
+      <div id="contactHeader" className="w-full bg-headerbg p-3 mb-10 mt-10 border-2">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Contact
         </h1>

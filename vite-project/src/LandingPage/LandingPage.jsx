@@ -38,7 +38,6 @@ const LandingPage = () => {
             <div id="Projects" className="flex flex-col justify-center w-full">
               <ProjectDisplay />
             </div>
-            
             <div id="Homelab" className="flex flex-col justify-center w-full">
               <HomeLab />
             </div>
