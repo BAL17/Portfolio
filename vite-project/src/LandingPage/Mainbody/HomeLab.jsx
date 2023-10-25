@@ -3,7 +3,10 @@ import React from "react";
 const HomeLab = () => {
   return (
     <>
-      <div id="homelabHeader" className="w-full bg-headerbg p-3 mb-10 mt-10 border-2">
+      <div
+        id="homelabHeader"
+        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2"
+      >
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Professional Development
         </h1>
@@ -12,25 +15,27 @@ const HomeLab = () => {
         {/* filecloud CARD  */}
         <div
           id="filecloudCard"
-          className="flex flex-col w-2/5 h-fit border-2 shadow-lg bg-secbg"
+          className="flex flex-col w-2/5 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="filecloudHeader"
             className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
           >
             <div className="flex justify-center items-center gap-2 p-1">
-              <span className="text-xl">Building My Own Cloud In The Cloud</span>
+              <span className="text-xl">
+                Building My Own Cloud In The Cloud
+              </span>
             </div>
             <div id="CCUFooter" className="flex">
               <h1 className="text-text text-xl"> Oct 2023 </h1>
             </div>
           </div>
 
-          <div id="filecloudCardDesc" className="w-full h-fit mt-3 ">
-            <li className=" ml-2 mb-3 ">
+          <div id="filecloudCardDesc" className="flex justify-center w-full h-fit mt-3 ">
+            <span className=" mb-3 ">
               Using File Cloud and AWS in order to replace my personal Google
               Drive storage solution for better security and customization.
-            </li>
+            </span>
           </div>
         </div>
       </div>
