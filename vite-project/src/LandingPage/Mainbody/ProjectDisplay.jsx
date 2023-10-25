@@ -15,7 +15,7 @@ const ProjectDisplay = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="border-2 w-full bg-slate-500 p-1 mb-10 mt-10">
+      <div className="border-2 w-full bg-headerbg p-3 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white">
           Projects
         </h1>
@@ -28,9 +28,9 @@ const ProjectDisplay = () => {
         {/* INSIGHT CARD  */}
         <div
           id="insightCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 shadow-lg bg-white"
+          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2">
+          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
             <div>
               <CarouselOne />
             </div>
@@ -56,7 +56,7 @@ const ProjectDisplay = () => {
 
           <div
             id="insightFooter"
-            className="flex items-center justify-between w-full h-fit bg-slate-50 mt-3 p-3"
+            className="flex items-center justify-between w-full h-fit bg-cardbg mt-3 p-3"
           >
             <h1> Aug 2023 </h1>
             <a
@@ -75,9 +75,9 @@ const ProjectDisplay = () => {
         {/* nvidia CARD  */}
         <div
           id="nvidiaCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 shadow-lg bg-white"
+          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2">
+          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
             <div>
               <CarouselTwo />
             </div>
@@ -93,14 +93,15 @@ const ProjectDisplay = () => {
               className="flex justify-center w-full h-fit mt-3 "
             >
               <li className="text-md ml-3 mb-3">
-                Pixel-perfect replica of Nvidia's RTX 4060 graphic card product page.
+                Pixel-perfect replica of Nvidia's RTX 4060 graphic card product
+                page.
               </li>
             </div>
           </div>
 
           <div
             id="nvidiaFooter"
-            className=" flex justify-between w-full h-fit bg-slate-50 mt-3 p-3"
+            className=" flex justify-between w-full h-fit  bg-cardbg mt-3 p-3"
           >
             <h1> July 2023 </h1>
             <a
@@ -119,9 +120,9 @@ const ProjectDisplay = () => {
         {/* REI CARD  */}
         <div
           id="reiCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 shadow-lg bg-white"
+          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
-          <div className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2">
+          <div className="w-full border-b-2 border-slate-300 flex justify-center items-center p-2">
             <div>
               <CarouselThree />
             </div>
@@ -137,14 +138,15 @@ const ProjectDisplay = () => {
               className="flex justify-center w-full h-fit mt-3 "
             >
               <li className="text-md ml-3 mb-3">
-                Pixel-perfect replica of REI's Timbuk2 Muttmover Luxe Pack product page.
+                Pixel-perfect replica of REI's Timbuk2 Muttmover Luxe Pack
+                product page.
               </li>
             </div>
           </div>
 
           <div
             id="reiFooter"
-            className=" flex justify-between w-full h-fit bg-slate-50 mt-3 p-3"
+            className=" flex justify-between w-full h-fit bg-cardbg mt-3 p-3"
           >
             <h1> June 2023 </h1>
             <a

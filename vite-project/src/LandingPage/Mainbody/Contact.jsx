@@ -6,7 +6,7 @@ import LinkedIn from "../../assets/ContactSectionIcons/icons8-linkedin.svg";
 const Contact = () => {
   return (
     <>
-      <div id="contactHeader" className="w-full bg-HeaderBG p-2 mb-10 mt-10">
+      <div id="contactHeader" className="w-full bg-headerbg p-3 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Contact
         </h1>
@@ -14,7 +14,7 @@ const Contact = () => {
 
       {/* DIV FOR ICONS */}
       <div className="flex justify-center w-full text-xl ">
-        <div className="w-3/5 flex flex-col p-3 border-2 shadow-lg bg-white gap-8">
+        <div className="w-3/5 flex flex-col p-3 border-2 shadow-lg rounded-lg bg-secbg gap-8">
           {/* GMAIL */}
           <a
             href="mailto:brandonws20@gmail.com"

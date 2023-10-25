@@ -24,7 +24,7 @@ import GITHUB from "../../assets/DevIcons/icons8-github.svg";
 const Skills = () => {
   return (
     <>
-      <div id="skillsHeader" className="w-full bg-HeaderBG p-2 mb-10 mt-10">
+      <div id="skillsHeader" className="w-full bg-headerbg p-3 mb-10 mt-10 border-2 ">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Skills
         </h1>
@@ -35,42 +35,42 @@ const Skills = () => {
         {/* FRONT END */}
         <div
           id="frontEnd"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-white "
+          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full text-xl border-b-2 border-slate-300">
-            <h1 className="flex text-2xl p-2">FRONTEND</h1>
+          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text">FRONTEND</h1>
           </div>
 
           <div className="flex justify-center items-center gap-10 mt-3">
             <div className="flex flex-col items-center">
               <img src={ReactIcon}></img>
-              <h3>React</h3>
+              <h3 className="text-text">React</h3>
             </div>
 
             <div className="flex flex-col items-center">
               <img src={JS}></img>
-              <h3>JavaScript ES6+</h3>
+              <h3 className="text-text">JavaScript ES6+</h3>
             </div>
 
             <div className="flex flex-col items-center">
               <img src={CSS}></img>
-              <h3>CSS3</h3>
+              <h3 className="text-text">CSS3</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={HTML}></img>
-              <h3>HTML5</h3>
+              <h3 className="text-text">HTML5</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={JQUERY}></img>
-              <h3>JQuery</h3>
+              <h3 className="text-text">JQuery</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={TLWIND}></img>
-              <h3>TailwindCSS</h3>
+              <h3 className="text-text">TailwindCSS</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={FIGMA}></img>
-              <h3>Figma</h3>
+              <h3 className="text-text">Figma</h3>
             </div>
           </div>
         </div>
@@ -78,28 +78,28 @@ const Skills = () => {
         {/* BACKEND */}
         <div
           id="backEnd"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-white"
+          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full border-b-2 border-slate-300">
-            <h1 className="flex text-2xl p-2">BACKEND</h1>
+          <div className="flex justify-center w-full border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text">BACKEND</h1>
           </div>
 
           <div className="flex justify-center items-center gap-10 mt-3 p-2">
             <div className="flex flex-col items-center">
               <img src={NODE}></img>
-              <h3>NodeJS</h3>
+              <h3 className="text-text">NodeJS</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={EXP}></img>
-              <h3>ExpressJS</h3>
+              <h3 className="text-text">ExpressJS</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={PSQL}></img>
-              <h3>PostgresSQL</h3>
+              <h3 className="text-text">PostgresSQL</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={MGDB}></img>
-              <h3>MongoDB</h3>
+              <h3 className="text-text">MongoDB</h3>
             </div>
           </div>
         </div>
@@ -107,48 +107,48 @@ const Skills = () => {
         {/* TESTING/DEPLOYMENT */}
         <div
           id="testing"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-white"
+          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full text-xl border-b-2 border-slate-300">
-            <h1 className="flex text-2xl p-2">TESTING/DEPLOYMENT</h1>
+          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text">TESTING/DEPLOYMENT</h1>
           </div>
 
           <div className="flex justify-center items-center gap-10 mt-3">
             <div className="flex flex-col items-center">
               <img src={DOCKER}></img>
-              <h3>Docker</h3>
+              <h3 className="text-text">Docker</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={VITEST}></img>
-              <h3>Vitest</h3>
+              <h3 className="text-text">Vitest</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={WP}></img>
-              <h3>Webpack</h3>
+              <h3 className="text-text">Webpack</h3>
             </div>
           </div>
         </div>
         {/* PROJECT MANAGEMENT */}
         <div
           id="projectManagement"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-white"
+          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full text-xl border-b-2 border-slate-300">
-            <h1 className="flex text-2xl p-2 ">PROJECT MANAGEMENT</h1>
+          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text">PROJECT MANAGEMENT</h1>
           </div>
 
           <div className="flex justify-center items-center gap-10 mt-3">
             <div className="flex flex-col items-center">
               <img src={GITLAB}></img>
-              <h3>GitLab</h3>
+              <h3 className="text-text">GitLab</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={JIRA}></img>
-              <h3>Jira</h3>
+              <h3 className="text-text">Jira</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={SLACK}></img>
-              <h3>Slack</h3>
+              <h3 className="text-text">Slack</h3>
             </div>
           </div>
         </div>
@@ -156,32 +156,32 @@ const Skills = () => {
         {/* Other */}
         <div
           id="other"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-white"
+          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full text-xl border-b-2 border-slate-300">
-            <h1 className="flex text-2xl p-2 ">OTHER</h1>
+          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text">OTHER</h1>
           </div>
 
           <div className="flex justify-center items-center gap-10 mt-3">
             <div className="flex flex-col items-center">
               <img src={MACOS}></img>
-              <h3>MacOS</h3>
+              <h3 className="text-text">MacOS</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={LINUX}></img>
-              <h3>Linux</h3>
+              <h3 className="text-text">Linux</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={WINDOWS}></img>
-              <h3>Windows</h3>
+              <h3 className="text-text">Windows</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={GIT}></img>
-              <h3>GIT</h3>
+              <h3 className="text-text">GIT</h3>
             </div>
             <div className="flex flex-col items-center">
               <img src={GITHUB}></img>
-              <h3>Github</h3>
+              <h3 className="text-text">Github</h3>
             </div>
           </div>
         </div>

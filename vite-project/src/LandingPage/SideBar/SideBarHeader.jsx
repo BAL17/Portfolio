@@ -8,7 +8,7 @@ const SideBarHeader = () => {
         </div>
         <div className="flex">
         <h1 className="text-1xl">
-          <strong className="text-skyblue"> Brandon Stegall </strong>
+          <strong className="text-accent"> Brandon Stegall </strong>
         </h1>
 
         </div>

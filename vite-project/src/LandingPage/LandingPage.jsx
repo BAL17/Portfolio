@@ -7,8 +7,10 @@ import Skills from "./Mainbody/Skills.jsx";
 import ProjectDisplay from "./Mainbody/ProjectDisplay.jsx";
 import Contact from "./Mainbody/Contact.jsx";
 import Footer from "./Footer/Footer.jsx";
-import "./LandingPage.css";
+import HomeLab from "./Mainbody/HomeLab.jsx";
 import Education from "./Mainbody/Education.jsx";
+import "./LandingPage.css";
+import AboutMeDesc from "./Mainbody/AboutMeDesc.jsx";
 
 const LandingPage = () => {
   return (
@@ -17,9 +19,14 @@ const LandingPage = () => {
         <div className="flex-1 flex bg-background">
           <SideBar />
 
-          <div className="flex-1 overflow-y-auto mb-10">
+          <div className="flex-1 overflow-y-auto mb-10 ">
             <div id="About" className="flex flex-col h-fit w-full ">
               <AboutMe />
+            </div>
+            
+            
+            <div className="flex flex-col h-fit w-full ">
+              <AboutMeDesc />
             </div>
 
             <div

@@ -9,7 +9,7 @@ const Education = () => {
   }
   return (
     <>
-      <div id="educationHeader" className="w-full bg-lGrey p-2 mb-10 mt-10">
+      <div id="educationHeader" className="w-full bg-headerbg p-3 mb-10 mt-10">
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Education
         </h1>
@@ -22,11 +22,11 @@ const Education = () => {
         {/* CCU CARD  */}
         <div
           id="CCUCard"
-          className="flex flex-col w-2/5 h-fit border-2 shadow-lg bg-CardBG"
+          className="flex flex-col w-2/5 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
         >
           <div
-            id=""
-            className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2"
+            id="ccuCardHeader"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
           >
             <div className="flex items-center gap-2 p-1">
               <img src={CCU} style={logoStyling}></img>
@@ -44,7 +44,7 @@ const Education = () => {
             <li className="ml-5"></li> */}
           </div>
 
-          <div id="CCUFooter" className="w-full h-fit bg-slate-50 mt-3 p-3">
+          <div id="CCUFooter" className="w-full h-fit bg-cardbg mt-3 p-3">
             <h1> June 2020 - May 2025 | Remote, USA </h1>
           </div>
         </div>
@@ -52,11 +52,11 @@ const Education = () => {
         {/* GALVANIZE OPERATION LEVEL UP */}
         <div
           id="GalvanizeCard"
-          className="flex flex-col w-2/5 h-fit border-2 shadow-lg bg-white"
+          className="flex flex-col w-2/5 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
         >
           <div
-            id=""
-            className="w-full border-b-2 border-slate-300 flex justify-between items-center p-2"
+            id="galvanizeHeader"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
           >
             <div className="flex items-center gap-2 p-1">
               <img src={Gal} style={logoStyling}></img>
@@ -80,7 +80,7 @@ const Education = () => {
             </li> */}
           </div>
 
-          <div id="cardOneFooter" className="w-full h-fit bg-slate-50 mt-3 p-3">
+          <div id="cardOneFooter" className="w-full h-fit bg-cardbg mt-3 p-3">
             <h1>May 2023 - Aug 2023 | Remote, USA </h1>
           </div>
         </div>
