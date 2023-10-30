@@ -26,16 +26,18 @@ const HomeLab = () => {
                 Building My Own Cloud In The Cloud
               </span>
             </div>
-            <div id="CCUFooter" className="flex">
+            <div id="filecloudDate" className="flex">
               <h1 className="text-text text-xl"> Oct 2023 </h1>
             </div>
           </div>
 
-          <div id="filecloudCardDesc" className="flex justify-center w-full h-fit mt-3 ">
-            <span className=" mb-3 ">
+          <div id="filecloudCardDesc" className="flex justify-center w-full h-fit mt-3">
+            <div className="flex mb-3 ">
+              
               Using File Cloud and AWS in order to replace my personal Google
-              Drive storage solution for better security and customization.
-            </span>
+              Drive storage solution for better security and customization.                
+              
+            </div>
           </div>
         </div>
       </div>

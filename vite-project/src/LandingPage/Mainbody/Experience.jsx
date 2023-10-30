@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <div
         id="experienceHeader"
-        className="w-full bg-headerbg p-3 mb-10 border-2"
+        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2"
       >
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Experience

@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <>
       <div
-        id="About"
+        id="Top"
         className="flex flex-col justify-start items-center h-screen w-full bg-black "
       >
         <div className="object-cover max-w-full min-h-screen ">

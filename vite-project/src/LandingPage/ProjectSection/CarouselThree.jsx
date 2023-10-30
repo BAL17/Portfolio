@@ -6,9 +6,10 @@ import BITWIZ from "../../assets/REI/bitwiz.png"
 import PRODUCTS from "../../assets/REI/products.png";
 import TOPPAGE from "../../assets/REI/toppage.png";
 import CARTMOD from "../../assets/REI/addtocart.png";
+import BotLinks from '../../assets/REI/botRei.png'
 
 const CarouselThree = () => {
-  const images = [ TOPPAGE, CARTMOD, PRODUCTS, BITWIZ,];
+  const images = [ TOPPAGE, CARTMOD, PRODUCTS, BotLinks,];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextSlide = () => {
