@@ -1,9 +1,6 @@
-import ME from "../../assets/DSC_9918.jpg";
-import ME2 from "../../assets/Brandon-Stegall-11182022-1.jpg";
-import ME3 from "../../assets/IMG_4141.jpg";
-import ME4 from "../../assets/IMG_4141-2.jpg";
-import ME5 from "../../assets/IMG_4141-3.jpg";
-import ME6 from "../../assets/IMG_4141-4.jpg";
+
+import ME3 from "../../assets/pic/IMG_4141.jpg";
+
 
 const AboutMe = () => {
   return (
@@ -20,11 +17,11 @@ const AboutMe = () => {
         </div>
         <div className="flex flex-col w-1/2 h-full justify-center gap-8 items-center">
           <div className="flex ">
-            <span className="italic text-accent text-2xl "> About</span>
+            <span className="italic text-accent text-2xl font-heading"> About</span>
           </div>
           <div className="flex justify-center items-center  ">
             <div className=" flex border-l-4 border-accent w-5 h-16"></div>
-            <div className="flex max-h-fit max-w-fit flex-col">
+            <div className="flex max-h-fit max-w-fit flex-col font-body">
               <span className="text-3xl text-white">
                 Husband, father, and full-stack developer
               </span>

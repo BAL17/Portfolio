@@ -28,6 +28,7 @@ const CarouselTwo = () => {
                 src={images[currentImageIndex]}
                 alt={`Slide ${currentImageIndex + 1}`}
                 className="object-cover h-48 w-96"
+                loading="lazy"
               />
               <div className="flex justify-between mt-1">
                 <img onClick={prevSlide} src={LeftArrow}></img>

@@ -22,54 +22,64 @@ import WP from "../../assets/DevIcons/icons8-webpack.svg";
 import GITHUB from "../../assets/DevIcons/icons8-github.svg";
 
 const Skills = () => {
+  const deviconStyling = {
+    height: '50px',
+    width: '50px'
+  }
+
   return (
     <>
-      <div id="skillsHeader" className="w-full bg-headerbg p-3 mb-10 mt-10 border-2 ">
-        <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
+      <div
+        id="skillsHeader"
+        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2 "
+      >
+        <h1 className="flex ml-2 font-heading font-bold text-4xl text-white ">
           Skills
         </h1>
       </div>
 
       {/* DIV THAT HOLDS ALL THE CARDS  */}
-      <div className="flex flex-col w-full items-center gap-10">
+      <div className="flex flex-col w-full items-center gap-10 ">
         {/* FRONT END */}
         <div
           id="frontEnd"
           className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text">FRONTEND</h1>
+            <h1 className="flex text-2xl p-2 text-text font-heading">
+              FRONTEND
+            </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3">
+          <div className="flex justify-center items-center gap-10 mt-3 font-body">
             <div className="flex flex-col items-center">
-              <img src={ReactIcon}></img>
+              <img src={ReactIcon} style={deviconStyling}></img>
               <h3 className="text-text">React</h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <img src={JS}></img>
+              <img src={JS} style={deviconStyling}></img>
               <h3 className="text-text">JavaScript ES6+</h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <img src={CSS}></img>
+              <img src={CSS} style={deviconStyling}></img>
               <h3 className="text-text">CSS3</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={HTML}></img>
+              <img src={HTML} style={deviconStyling}></img>
               <h3 className="text-text">HTML5</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={JQUERY}></img>
+              <img src={JQUERY} style={deviconStyling}></img>
               <h3 className="text-text">JQuery</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={TLWIND}></img>
+              <img src={TLWIND} style={deviconStyling}></img>
               <h3 className="text-text">TailwindCSS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={FIGMA}></img>
+              <img src={FIGMA} style={deviconStyling}></img>
               <h3 className="text-text">Figma</h3>
             </div>
           </div>
@@ -81,24 +91,26 @@ const Skills = () => {
           className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text">BACKEND</h1>
+            <h1 className="flex text-2xl p-2 text-text font-heading">
+              BACKEND
+            </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 p-2">
+          <div className="flex justify-center items-center gap-10 mt-3 p-2 font-body">
             <div className="flex flex-col items-center">
-              <img src={NODE}></img>
+              <img src={NODE} style={deviconStyling}></img>
               <h3 className="text-text">NodeJS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={EXP}></img>
+              <img src={EXP} style={deviconStyling}></img>
               <h3 className="text-text">ExpressJS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={PSQL}></img>
+              <img src={PSQL} style={deviconStyling}></img>
               <h3 className="text-text">PostgresSQL</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={MGDB}></img>
+              <img src={MGDB} style={deviconStyling}></img>
               <h3 className="text-text">MongoDB</h3>
             </div>
           </div>
@@ -110,20 +122,22 @@ const Skills = () => {
           className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text">TESTING/DEPLOYMENT</h1>
+            <h1 className="flex text-2xl p-2 text-text font-heading">
+              TESTING/DEPLOYMENT
+            </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3">
+          <div className="flex justify-center items-center gap-10 mt-3 font-body">
             <div className="flex flex-col items-center">
-              <img src={DOCKER}></img>
+              <img src={DOCKER} style={deviconStyling}></img>
               <h3 className="text-text">Docker</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={VITEST}></img>
+              <img src={VITEST} style={deviconStyling}></img>
               <h3 className="text-text">Vitest</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={WP}></img>
+              <img src={WP} style={deviconStyling}></img>
               <h3 className="text-text">Webpack</h3>
             </div>
           </div>
@@ -134,20 +148,22 @@ const Skills = () => {
           className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text">PROJECT MANAGEMENT</h1>
+            <h1 className="flex text-2xl p-2 text-text font-heading">
+              PROJECT MANAGEMENT
+            </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3">
+          <div className="flex justify-center items-center gap-10 mt-3 font-body">
             <div className="flex flex-col items-center">
-              <img src={GITLAB}></img>
+              <img src={GITLAB} style={deviconStyling}></img>
               <h3 className="text-text">GitLab</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={JIRA}></img>
+              <img src={JIRA} style={deviconStyling}></img>
               <h3 className="text-text">Jira</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={SLACK}></img>
+              <img src={SLACK} style={deviconStyling}></img>
               <h3 className="text-text">Slack</h3>
             </div>
           </div>
@@ -159,28 +175,28 @@ const Skills = () => {
           className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text">OTHER</h1>
+            <h1 className="flex text-2xl p-2 text-text font-heading">OTHER</h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3">
+          <div className="flex justify-center items-center gap-10 mt-3 font-body">
             <div className="flex flex-col items-center">
-              <img src={MACOS}></img>
+              <img src={MACOS} style={deviconStyling}></img>
               <h3 className="text-text">MacOS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={LINUX}></img>
+              <img src={LINUX} style={deviconStyling}></img>
               <h3 className="text-text">Linux</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={WINDOWS}></img>
+              <img src={WINDOWS} style={deviconStyling}></img>
               <h3 className="text-text">Windows</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={GIT}></img>
+              <img src={GIT} style={deviconStyling}></img>
               <h3 className="text-text">GIT</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={GITHUB}></img>
+              <img src={GITHUB} style={deviconStyling}></img>
               <h3 className="text-text">Github</h3>
             </div>
           </div>

@@ -4,12 +4,12 @@ import SideBarHeader from "./SideBarHeader.jsx";
 const SideBar = () => {
   return (
     <>
-      <div className="flex flex-col w-48">
+      <div className="flex flex-col w-48 font-heading">
         <aside className="fixed h-full w-48 overflow-y-auto bg-secbg text-text ">
           <div className="flex flex-col justify-center items-center h-40 p-1 cursor-pointer border-b-2 border-white hover:border-x-4 border-x-accent">
             <SideBarHeader />
           </div>
-          <Link to="About" spy={true} smooth={true} offset={900} duration={500}>
+          <Link to="About" spy={true} smooth={true} offset={0} duration={500}>
             <div className="flex justify-center items-center h-24 w-full text-xl cursor-pointer hover:border-l-4 border-accent">
               <h1>About</h1>
             </div>
@@ -19,7 +19,7 @@ const SideBar = () => {
             to="Experience"
             spy={true}
             smooth={true}
-            offset={10}
+            offset={0}
             duration={500}
           >
             <div
@@ -34,7 +34,7 @@ const SideBar = () => {
             to="Projects"
             spy={true}
             smooth={true}
-            offset={10}
+            offset={40}
             duration={500}
           >
             <div
@@ -62,7 +62,7 @@ const SideBar = () => {
             </div>
           </Link> */}
 
-          <Link to="Skills" spy={true} smooth={true} offset={10} duration={500}>
+          <Link to="Skills" spy={true} smooth={true} offset={40} duration={500}>
             <div
               id="skills"
               className="flex justify-center items-center  h-24 w-full text-xl cursor-pointer hover:border-l-4 border-accent"

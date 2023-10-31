@@ -8,7 +8,7 @@ const Experience = () => {
         id="experienceHeader"
         className="w-full bg-headerbg p-3 mb-10 border-2"
       >
-        <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
+        <h1 className="flex ml-2 font-heading font-bold text-4xl text-white ">
           Experience
         </h1>
       </div>
@@ -21,20 +21,20 @@ const Experience = () => {
         >
           <div
             id="armyCardOneHeader"
-            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2 text-text"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2 text-text font-heading"
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ">
               <img src={USArmy}></img>
               <span className="text-xl text-text">U.S. Army</span>
             </div>
 
             <div className="flex mr-2">
-              <span className="text-xl text-accent">Engineering Manager</span>
+              <span className="text-xl text-accent font-bold">Engineering Manager</span>
             </div>
           </div>
 
           <div id="cardOneDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5 text-text">
+            <li className="ml-5 text-text font-body">
               Managed over 10 engineer teams, leading the design and
               implementation of an efficient training program, supervising
               project completion, and cultivating a culture of productivity and
@@ -44,7 +44,7 @@ const Experience = () => {
 
           <div
             id="cardOneFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex ">
               <h1>May 2019 - September 2023</h1>
@@ -58,24 +58,24 @@ const Experience = () => {
         {/* TEAM LEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardTwo"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden "
         >
           <div
             id="armyCardTwoHeader"
-            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2 font-heading"
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ">
               <img src={USArmy}></img>
               <span className="text-xl">U.S. Army</span>
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent">Team Lead</span>
+              <span className="text-xl mr-2 text-accent font-bold">Team Lead</span>
             </div>
           </div>
 
           <div id="cardTwoDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5">
+            <li className="ml-5 font-body">
               Led and mentored more than 5 engineer teams, conducted
               comprehensive technical training sessions, fostered effective
               communication, and drove significant operational efficiency
@@ -85,7 +85,7 @@ const Experience = () => {
 
           <div
             id="cardTwoFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
               <h1>January 2017 - May 2019</h1>
@@ -103,20 +103,20 @@ const Experience = () => {
         >
           <div
             id="combatEngineerHeader"
-            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2 font-heading"
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ">
               <img src={USArmy}></img>
               <span className="text-xl text-text">U.S. Army</span>
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent">Combat Engineer</span>
+              <span className="text-xl mr-2 text-accent font-bold">Combat Engineer</span>
             </div>
           </div>
 
           <div id="combatEngineerDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5 text-text ">
+            <li className="ml-5 text-text font-body ">
               Enhanced technical engineering proficiency through the application
               of advanced calculations, resulting in improved fortifications,
               the design of field structures, and the production of precise
@@ -126,7 +126,7 @@ const Experience = () => {
 
           <div
             id="combatEngineerFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
               <h1> January 2016 - January 2017</h1>
@@ -144,7 +144,7 @@ const Experience = () => {
         >
           <div
             id="tangsHeader"
-            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2"
+            className="w-full border-b-2 border-borderbot flex justify-between items-center p-2 font-heading"
           >
             <div className="flex items-center gap-3">
               <img src={Tangs} className="ml-2"></img>
@@ -152,12 +152,12 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent ">Host/Busser</span>
+              <span className="text-xl mr-2 text-accent font-bold ">Host/Busser</span>
             </div>
           </div>
 
           <div id="tangsDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5">
+            <li className="ml-5 font-body">
               Delivered exceptional customer service while efficiently managing
               restaurant resources, overseeing payment collection, and
               facilitating reservations, ensuring a seamless dining experience
@@ -167,7 +167,7 @@ const Experience = () => {
 
           <div
             id="tangsFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
               <h1> July 2014 - November 2015 </h1>

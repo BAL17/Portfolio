@@ -16,7 +16,7 @@ const ProjectDisplay = () => {
   return (
     <div className="flex flex-col">
       <div className="border-2 w-full bg-headerbg p-3 mb-10 mt-10">
-        <h1 className="flex ml-2 font-mono font-bold text-4xl text-white">
+        <h1 className="flex ml-2 font-heading font-bold text-4xl text-white">
           Projects
         </h1>
       </div>
@@ -38,7 +38,7 @@ const ProjectDisplay = () => {
 
           <div className="flex flex-col w-full mt-2 p-1">
             <div className="flex justify-center">
-              <span className="text-xl ">
+              <span className="italic text-accent font-bold text-xl font-heading">
                 Insight Learning Management System
               </span>
             </div>
@@ -47,7 +47,7 @@ const ProjectDisplay = () => {
               id="insightDesc"
               className="flex justify-center w-full h-fit mt-3 "
             >
-              <li className="text-md ml-3 mb-3">
+              <li className="text-md ml-3 mb-3 font-body">
                 A web-based virtual learning environment and learning management
                 system.
               </li>
@@ -56,7 +56,7 @@ const ProjectDisplay = () => {
 
           <div
             id="insightFooter"
-            className="flex items-center justify-between w-full h-fit bg-cardbg mt-3 p-3"
+            className="flex items-center justify-between w-full h-fit bg-cardbg mt-3 p-3 font-body"
           >
             <h1> Aug 2023 </h1>
             <a
@@ -85,7 +85,7 @@ const ProjectDisplay = () => {
 
           <div className="flex flex-col w-full  mt-2  p-1">
             <div className="flex justify-center">
-              <span className="text-xl italic text-accent">
+              <span className="text-xl italic text-accent font-heading font-bold">
               Nvidia Product Page
               </span>
             </div>
@@ -94,7 +94,7 @@ const ProjectDisplay = () => {
               id="nvidiaDesc"
               className="flex justify-center w-full h-fit mt-3 "
             >
-              <li className="text-md ml-3 mb-3">
+              <li className="text-md ml-3 mb-3 font-body">
                 Pixel-perfect replica of Nvidia's RTX 4060 graphic card product
                 page.
               </li>
@@ -103,7 +103,7 @@ const ProjectDisplay = () => {
 
           <div
             id="nvidiaFooter"
-            className=" flex justify-between w-full h-fit  bg-cardbg mt-3 p-3"
+            className=" flex justify-between w-full h-fit bg-cardbg mt-3 p-3 font-body"
           >
             <h1> July 2023 </h1>
             <a
@@ -132,14 +132,14 @@ const ProjectDisplay = () => {
 
           <div className="flex flex-col w-full  mt-2 p-1">
             <div className="flex justify-center">
-              <span className="text-xl">REI Product Page</span>
+              <span className="text-xl font-heading font-bold text-accent italic">REI Product Page</span>
             </div>
 
             <div
               id="reiDesc"
               className="flex justify-center w-full h-fit mt-3 "
             >
-              <li className="text-md ml-3 mb-3">
+              <li className="text-md ml-3 mb-3 font-body">
                 Pixel-perfect replica of REI's Timbuk2 Muttmover Luxe Pack
                 product page.
               </li>
@@ -148,7 +148,7 @@ const ProjectDisplay = () => {
 
           <div
             id="reiFooter"
-            className=" flex justify-between w-full h-fit bg-cardbg mt-3 p-3"
+            className=" flex justify-between w-full h-fit bg-cardbg mt-3 p-3 font-body"
           >
             <h1> June 2023 </h1>
             <a

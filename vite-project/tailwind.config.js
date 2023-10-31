@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Sig: ["Lato", "sans-serif"],
-        title: ["Libre Franklin", "sans serif"],
-        robot: ["Roboto Serif", "sans serif"],
+        heading: "Cabin, sans-serif",
+        body: "Ubuntu, sans-serif",
+      },
+      fontWeight: {
+        normal: "400",
+        bold: "700",
       },
       colors: {
         secbg: "#D1D7DE",
