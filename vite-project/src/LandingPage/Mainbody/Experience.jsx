@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <div
         id="experienceHeader"
-        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2"
+        className="w-full bg-headerbg p-3 mb-10 border-2"
       >
         <h1 className="flex ml-2 font-mono font-bold text-4xl text-white ">
           Experience
@@ -29,7 +29,7 @@ const Experience = () => {
             </div>
 
             <div className="flex mr-2">
-              <span className="text-xl text-text">Engineering Manager</span>
+              <span className="text-xl text-accent">Engineering Manager</span>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2">Team Lead</span>
+              <span className="text-xl mr-2 text-accent">Team Lead</span>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2">Combat Engineer</span>
+              <span className="text-xl mr-2 text-accent">Combat Engineer</span>
             </div>
           </div>
 
@@ -152,7 +152,7 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2">Host/Busser</span>
+              <span className="text-xl mr-2 text-accent ">Host/Busser</span>
             </div>
           </div>
 

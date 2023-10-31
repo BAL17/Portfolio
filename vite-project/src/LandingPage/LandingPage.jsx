@@ -12,54 +12,58 @@ import Education from "./Mainbody/Education.jsx";
 import "./LandingPage.css";
 import AboutMeDesc from "./Mainbody/AboutMeDesc.jsx";
 
+
 const LandingPage = () => {
   return (
     <>
-      <div className="flex flex-col h-screen ">
-        <div className="flex-1 flex bg-background">
-          <SideBar />
+        <div className="flex flex-col h-screen ">
+          <div className="flex-1 flex bg-background">
+            <SideBar />
 
-          <div className="flex-1 overflow-y-auto mb-10 ">
-            <div id="About" className="flex flex-col h-fit w-full ">
-              <AboutMe />
-            </div>
+            <div className="flex-1 overflow-y-auto mb-10 ">
+              <div id="About" className="flex flex-col h-fit w-full ">
+                <AboutMe />
+              </div>
 
-            <div className="flex flex-col h-fit w-full ">
+              {/* <div className="flex flex-col h-fit w-full ">
               <AboutMeDesc />
-            </div>
+            </div> */}
 
-            <div
-              id="Experience"
-              className="flex flex-col justify-center w-full"
-            >
-              <Experience />
-            </div>
+              <div
+                id="Experience"
+                className="flex flex-col justify-center w-full"
+              >
+                <Experience />
+              </div>
 
-            <div id="Projects" className="flex flex-col justify-center w-full">
-              <ProjectDisplay />
-            </div>
+              <div
+                id="Projects"
+                className="flex flex-col justify-center w-full"
+              >
+                <ProjectDisplay />
+              </div>
 
-            
-            {/* <div id="Homelab" className="flex flex-col justify-center w-full">
+              {/* <div id="Homelab" className="flex flex-col justify-center w-full">
               <HomeLab />
             </div> */}
 
-            <div id="Skills" className="flex flex-col justify-center w-full">
-              <Skills />
-            </div>
+              <div id="Skills" className="flex flex-col justify-center w-full">
+                <Skills />
+              </div>
 
-            <div id="Education" className="flex flex-col justify-center w-full">
-              <Education />
-            </div>
+              <div
+                id="Education"
+                className="flex flex-col justify-center w-full"
+              >
+                <Education />
+              </div>
 
-            <div id="Contact" className="flex flex-col justify-center w-full">
-              <Contact />
+              <div id="Contact" className="flex flex-col justify-center w-full">
+                <Contact />
+              </div>
             </div>
           </div>
         </div>
-
-        {/* <Footer /> */}
-      </div>
     </>
   );
 };

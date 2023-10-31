@@ -1,5 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
+
 const AboutMeDesc = () => {
+  const [showDetails, setShowDetails] = useState(false);
+
+  const toggleDetails = () => {
+    setShowDetails(!showDetails);
+  };
+  
+  
   return (
     <>
       <div id="About" className="w-full bg-headerbg p-3 mb-10 border-2 ">
@@ -17,10 +25,17 @@ const AboutMeDesc = () => {
           </span>
         </div>
         <div className="flex justify-center">
-          <p>
-           
-          </p>
+         <button onClick={toggleDetails} className="text-blue-500">
+            Read More...
+          </button>
         </div>
+        {showDetails && (
+          <div className="flex justify-center">
+            <p>
+             
+            </p>
+          </div>
+           )}
       </div>
     </>
   );

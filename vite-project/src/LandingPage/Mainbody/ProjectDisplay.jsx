@@ -85,7 +85,9 @@ const ProjectDisplay = () => {
 
           <div className="flex flex-col w-full  mt-2  p-1">
             <div className="flex justify-center">
-              <span className="text-xl">Nvidia Product Page</span>
+              <span className="text-xl italic text-accent">
+              Nvidia Product Page
+              </span>
             </div>
 
             <div

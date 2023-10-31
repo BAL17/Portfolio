@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
-import RightArrow from "../../assets/BSRightArrow.svg";
-import LeftArrow from "../../assets/BSLeftArrow.svg";
+import RightArrow from "../../assets/ArrowRight.svg";
+import LeftArrow from "../../assets/ArrowLeft.svg";
 //import images for NVIDIA
 import ARCH from "../../assets/Nvidia/architecture-screenshot.png";
 import FEATURES from "../../assets/Nvidia/features-screenshot.png";

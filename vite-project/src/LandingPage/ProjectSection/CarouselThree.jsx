@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
-import RightArrow from "../../assets/BSRightArrow.svg";
-import LeftArrow from "../../assets/BSLeftArrow.svg";
+import RightArrow from "../../assets/ArrowRight.svg";
+import LeftArrow from "../../assets/ArrowLeft.svg";
 //import images for REI
 import BITWIZ from "../../assets/REI/bitwiz.png"
 import PRODUCTS from "../../assets/REI/products.png";
