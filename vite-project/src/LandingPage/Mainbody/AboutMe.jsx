@@ -1,5 +1,5 @@
 import ME3 from "../../assets/pic/IMG_4141.jpg";
-
+import ME from "../../assets/pic/Brandon-Stegall-11182022-1.jpg";
 const AboutMe = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const AboutMe = () => {
         </div>
         <div className="flex flex-col md:w-1/2 lg:w-1/2 h-full justify-center gap-2 lg:gap-8 items-center mb-24">
           <div className="flex ">
-            <span className="italic text-accent text-2xl font-heading">
+            <span className="italic text-accent text-2xl font-heading font-bold">
               About
             </span>
           </div>

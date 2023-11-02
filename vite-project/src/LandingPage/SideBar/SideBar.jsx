@@ -4,7 +4,7 @@ import SideBarHeader from "./SideBarHeader.jsx";
 const SideBar = () => {
   return (
     <>  
-      <div className="flex flex-col w-0 lg:w-48  font-heading">
+      <div className="flex flex-col w-0 lg:w-48  font-heading ">
         <aside className="fixed h-full w-0 lg:w-48  overflow-y-auto bg-secbg text-text ">
           <div className="flex flex-col justify-center items-center h-40 p-1 cursor-pointer border-b-2 border-white hover:border-x-4 border-x-accent">
             <SideBarHeader />

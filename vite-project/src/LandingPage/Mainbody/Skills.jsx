@@ -39,48 +39,83 @@ const Skills = () => {
       </div>
 
       {/* DIV THAT HOLDS ALL THE CARDS  */}
-      <div className="flex flex-col w-full items-center gap-2 md:gap-6 lg:gap-10 ">
+      <div className="flex flex-col w-full items-center gap-6 md:gap-6 lg:gap-10 ">
         {/* FRONT END */}
         <div
           id="frontEnd"
-          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl p-2 text-text font-heading">
+            <h1 className="flex text-2xl lg:p-2 text-text font-heading">
               FRONTEND
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 font-body">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
-              <img src={ReactIcon} style={deviconStyling}></img>
-              <h3 className="text-text">React</h3>
+              <img
+                src={ReactIcon}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                React
+              </h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <img src={JS} style={deviconStyling}></img>
-              <h3 className="text-text">JavaScript ES6+</h3>
+              <img
+                src={JS}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                JavaScript ES6+
+              </h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <img src={CSS} style={deviconStyling}></img>
-              <h3 className="text-text">CSS3</h3>
+              <img
+                src={CSS}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                CSS3
+              </h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={HTML} style={deviconStyling}></img>
-              <h3 className="text-text">HTML5</h3>
+              <img
+                src={HTML}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                HTML5
+              </h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={JQUERY} style={deviconStyling}></img>
-              <h3 className="text-text">JQuery</h3>
+              <img
+                src={JQUERY}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                JQuery
+              </h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={TLWIND} style={deviconStyling}></img>
-              <h3 className="text-text">TailwindCSS</h3>
+              <img
+                src={TLWIND}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                TailwindCSS
+              </h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={FIGMA} style={deviconStyling}></img>
-              <h3 className="text-text">Figma</h3>
+              <img
+                src={FIGMA}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Figma
+              </h3>
             </div>
           </div>
         </div>
@@ -88,7 +123,7 @@ const Skills = () => {
         {/* BACKEND */}
         <div
           id="backEnd"
-          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -96,22 +131,34 @@ const Skills = () => {
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 p-2 font-body">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
-              <img src={NODE} style={deviconStyling}></img>
-              <h3 className="text-text">NodeJS</h3>
+              <img
+                src={NODE}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">NodeJS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={EXP} style={deviconStyling}></img>
-              <h3 className="text-text">ExpressJS</h3>
+              <img
+                src={EXP}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">ExpressJS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={PSQL} style={deviconStyling}></img>
-              <h3 className="text-text">PostgresSQL</h3>
+              <img
+                src={PSQL}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">PostgresSQL</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={MGDB} style={deviconStyling}></img>
-              <h3 className="text-text">MongoDB</h3>
+              <img
+                src={MGDB}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">MongoDB</h3>
             </div>
           </div>
         </div>
@@ -119,7 +166,7 @@ const Skills = () => {
         {/* TESTING/DEPLOYMENT */}
         <div
           id="testing"
-          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -127,25 +174,34 @@ const Skills = () => {
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 font-body">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
-              <img src={DOCKER} style={deviconStyling}></img>
-              <h3 className="text-text">Docker</h3>
+              <img
+                src={DOCKER}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Docker</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={VITEST} style={deviconStyling}></img>
-              <h3 className="text-text">Vitest</h3>
+              <img
+                src={VITEST}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Vitest</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={WP} style={deviconStyling}></img>
-              <h3 className="text-text">Webpack</h3>
+              <img
+                src={WP}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Webpack</h3>
             </div>
           </div>
         </div>
         {/* PROJECT MANAGEMENT */}
         <div
           id="projectManagement"
-          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -153,18 +209,27 @@ const Skills = () => {
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 font-body">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
-              <img src={GITLAB} style={deviconStyling}></img>
-              <h3 className="text-text">GitLab</h3>
+              <img
+                src={GITLAB}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">GitLab</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={JIRA} style={deviconStyling}></img>
-              <h3 className="text-text">Jira</h3>
+              <img
+                src={JIRA}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Jira</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={SLACK} style={deviconStyling}></img>
-              <h3 className="text-text">Slack</h3>
+              <img
+                src={SLACK}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Slack</h3>
             </div>
           </div>
         </div>
@@ -172,32 +237,47 @@ const Skills = () => {
         {/* Other */}
         <div
           id="other"
-          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">OTHER</h1>
           </div>
 
-          <div className="flex justify-center items-center gap-10 mt-3 font-body">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
-              <img src={MACOS} style={deviconStyling}></img>
-              <h3 className="text-text">MacOS</h3>
+              <img
+                src={MACOS}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">MacOS</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={LINUX} style={deviconStyling}></img>
-              <h3 className="text-text">Linux</h3>
+              <img
+                src={LINUX}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Linux</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={WINDOWS} style={deviconStyling}></img>
-              <h3 className="text-text">Windows</h3>
+              <img
+                src={WINDOWS}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Windows</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={GIT} style={deviconStyling}></img>
-              <h3 className="text-text">GIT</h3>
+              <img
+                src={GIT}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">GIT</h3>
             </div>
             <div className="flex flex-col items-center">
-              <img src={GITHUB} style={deviconStyling}></img>
-              <h3 className="text-text">Github</h3>
+              <img
+                src={GITHUB}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Github</h3>
             </div>
           </div>
         </div>
