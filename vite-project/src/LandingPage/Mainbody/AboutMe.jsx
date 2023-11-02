@@ -13,7 +13,7 @@ const AboutMe = () => {
             <img src={ME3} className="w-full h-1/2"></img>
           </div>
         </div>
-        <div className="flex flex-col md:w-1/2 lg:w-1/2 h-full justify-center gap-2 lg:gap-8 items-center">
+        <div className="flex flex-col md:w-1/2 lg:w-1/2 h-full justify-center gap-2 lg:gap-8 items-center mb-24">
           <div className="flex ">
             <span className="italic text-accent text-2xl font-heading">
               About

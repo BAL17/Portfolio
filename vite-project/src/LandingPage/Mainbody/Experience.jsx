@@ -17,7 +17,7 @@ const Experience = () => {
         {/* ENGINEERING MANAGER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardOne"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="armyCardOneHeader"
@@ -29,7 +29,9 @@ const Experience = () => {
             </div>
 
             <div className="flex mr-2">
-              <span className="text-xl text-accent font-bold">Engineering Manager</span>
+              <span className="text-xl text-accent font-bold">
+                Engineering Manager
+              </span>
             </div>
           </div>
 
@@ -58,7 +60,7 @@ const Experience = () => {
         {/* TEAM LEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardTwo"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden "
+          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden "
         >
           <div
             id="armyCardTwoHeader"
@@ -70,7 +72,9 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent font-bold">Team Lead</span>
+              <span className="text-xl mr-2 text-accent font-bold">
+                Team Lead
+              </span>
             </div>
           </div>
 
@@ -99,7 +103,7 @@ const Experience = () => {
         {/* COMBAT ENGINEER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="combatEngineerCard"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="combatEngineerHeader"
@@ -111,7 +115,9 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent font-bold">Combat Engineer</span>
+              <span className="text-xl mr-2 text-accent font-bold">
+                Combat Engineer
+              </span>
             </div>
           </div>
 
@@ -140,7 +146,7 @@ const Experience = () => {
         {/* TANGS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="tangsCard"
-          className="flex flex-col justify-center w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="tangsHeader"
@@ -152,7 +158,9 @@ const Experience = () => {
             </div>
 
             <div className="flex">
-              <span className="text-xl mr-2 text-accent font-bold ">Host/Busser</span>
+              <span className="text-xl mr-2 text-accent font-bold ">
+                Host/Busser
+              </span>
             </div>
           </div>
 

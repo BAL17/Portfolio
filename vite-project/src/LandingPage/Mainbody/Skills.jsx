@@ -39,11 +39,11 @@ const Skills = () => {
       </div>
 
       {/* DIV THAT HOLDS ALL THE CARDS  */}
-      <div className="flex flex-col w-full items-center gap-10 ">
+      <div className="flex flex-col w-full items-center gap-2 md:gap-6 lg:gap-10 ">
         {/* FRONT END */}
         <div
           id="frontEnd"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -88,7 +88,7 @@ const Skills = () => {
         {/* BACKEND */}
         <div
           id="backEnd"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -119,7 +119,7 @@ const Skills = () => {
         {/* TESTING/DEPLOYMENT */}
         <div
           id="testing"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -145,7 +145,7 @@ const Skills = () => {
         {/* PROJECT MANAGEMENT */}
         <div
           id="projectManagement"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">
@@ -172,7 +172,7 @@ const Skills = () => {
         {/* Other */}
         <div
           id="other"
-          className="w-3/5 flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+          className="scale-50 md:scale-100 lg:scale-100 w-fit lg:w-4/6  flex flex-col p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
           <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
             <h1 className="flex text-2xl p-2 text-text font-heading">OTHER</h1>
