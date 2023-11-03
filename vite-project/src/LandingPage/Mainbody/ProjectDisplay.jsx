@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import sourceCode from "../../assets/icons8-code-50.png"
+import sourceCode from "../../assets/icons8-code-50.png";
 
 import CarouselOne from "../ProjectSection/CarouselOne";
 import CarouselTwo from "../ProjectSection/CarouselTwo";
@@ -10,8 +10,7 @@ const ProjectDisplay = () => {
   const iconStyling = {
     height: "2rem",
     width: "2rem",
-    
-}
+  };
 
   return (
     <div className="flex flex-col">
@@ -23,12 +22,12 @@ const ProjectDisplay = () => {
 
       <div
         id="projectCardContainers"
-        className="flex justify-evenly gap-2 mx-2 p-2"
+        className="flex flex-col md:flex-row lg:flex-row  md:justify-evenly lg:justify-evenly items-center gap-6 md:gap-2 lg:gap-2 mx-2 p-2"
       >
         {/* INSIGHT CARD  */}
         <div
           id="insightCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col w-5/6  border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
@@ -37,10 +36,13 @@ const ProjectDisplay = () => {
           </div>
 
           <div className="flex flex-col w-full mt-2 p-1">
-            <div className="flex justify-center">
-              <span className="italic text-accent font-bold text-xl font-heading">
+            <div className="flex flex-col justify-center items-center mr-5 ml-5">
+              <span className="italic text-accent font-bold text-xl md:text-xl lg:text-xl font-heading break-all">
                 Insight Learning Management System
               </span>
+              {/* <span className="italic text-accent font-bold text-lg font-heading ">
+                Learning Management System
+              </span> */}
             </div>
 
             <div
@@ -75,7 +77,7 @@ const ProjectDisplay = () => {
         {/* nvidia CARD  */}
         <div
           id="nvidiaCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col w-5/6 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
@@ -86,7 +88,7 @@ const ProjectDisplay = () => {
           <div className="flex flex-col w-full  mt-2  p-1">
             <div className="flex justify-center">
               <span className="text-xl italic text-accent font-heading font-bold">
-              Nvidia Product Page
+                Nvidia Product Page
               </span>
             </div>
 
@@ -122,7 +124,7 @@ const ProjectDisplay = () => {
         {/* REI CARD  */}
         <div
           id="reiCard"
-          className="flex flex-col w-2/5 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col w-5/6 h-1/4 border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div className="w-full border-b-2 border-borderbot flex justify-center items-center p-2">
             <div>
@@ -132,7 +134,9 @@ const ProjectDisplay = () => {
 
           <div className="flex flex-col w-full  mt-2 p-1">
             <div className="flex justify-center">
-              <span className="text-xl font-heading font-bold text-accent italic">REI Product Page</span>
+              <span className="text-xl font-heading font-bold text-accent italic">
+                REI Product Page
+              </span>
             </div>
 
             <div

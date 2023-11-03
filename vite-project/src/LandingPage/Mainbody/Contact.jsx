@@ -6,7 +6,10 @@ import LinkedIn from "../../assets/ContactSectionIcons/icons8-linkedin.svg";
 const Contact = () => {
   return (
     <>
-      <div id="contactHeader" className="w-full bg-headerbg p-3 mb-10 mt-10 border-2">
+      <div
+        id="contactHeader"
+        className="w-full bg-headerbg p-3 mb-10 mt-10 border-2"
+      >
         <h1 className="flex ml-2 font-heading font-bold text-4xl text-white ">
           Contact
         </h1>
@@ -14,17 +17,22 @@ const Contact = () => {
 
       {/* DIV FOR ICONS */}
       <div className="flex justify-center w-full text-xl font-body">
-        <div className="w-3/5 flex flex-col p-3 border-2 shadow-lg rounded-lg bg-secbg gap-8">
+        <div className="flex flex-col p-3 border-2 shadow-lg rounded-lg bg-secbg gap-8 w-5/6 sm:w-1/2 md:w-1/2 lg:w-1/2">
           {/* GMAIL */}
           <a
             href="mailto:brandonws20@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div id="emailContact" className="flex ml-5">
-              <span className=" flex items-center gap-2 h-8 w-8">
+            <div
+              id="emailContact"
+              className="flex md:ml-5 lg:ml-5 overflow-clip"
+            >
+              <span className=" flex items-center gap-2 h-8 w-8 ">
                 <img src={Gmail} loading="lazy" alt="Gmail" />
-                <h2> brandonws20@gmail.com </h2>
+                <h2 className="text-base md:text-lg lg:text-xl">
+                  brandonws20@gmail.com
+                </h2>
               </span>
             </div>
           </a>
@@ -35,10 +43,15 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div id="githubContact" className="flex ml-5">
+            <div
+              id="githubContact"
+              className="flex md:ml-5 lg:ml-5 overflow-clip"
+            >
               <span className="flex items-center gap-2 h-8 w-8">
                 <img src={GitHub} loading="lazy" alt="GitHub" />
-                <h2>github.com/BAL17</h2>
+                <h2 className=" text-base md:text-lg lg:text-xl">
+                  github.com/BAL17
+                </h2>
               </span>
             </div>
           </a>
@@ -49,10 +62,15 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div id="linkedInContact" className="flex ml-5 ">
+            <div
+              id="linkedInContact"
+              className="flex md:ml-5 lg:ml-5 overflow-clip"
+            >
               <span className="flex items-center gap-2 h-8 w-8">
                 <img src={LinkedIn} loading="lazy" alt="LinkedIn" />
-                <h2>linkedin.com/in/brandonstegall817</h2>
+                <h2 className="text-base md:text-lg lg:text-xl">
+                  linkedin.com/in/brandonstegall817
+                </h2>
               </span>
             </div>
           </a>

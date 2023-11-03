@@ -48,11 +48,15 @@ const Experience = () => {
             id="cardOneFooter"
             className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
-            <div className="flex ">
-              <h1>May 2019 - September 2023</h1>
+            <div className="flex overflow-clip">
+              <h1 className="text-sm md:text-md lg:text-base">
+                May 2019 - September 2023
+              </h1>
             </div>
-            <div className="flex">
-              <h1> Fort Carson, CO - Fort Hood, TX</h1>
+            <div className="flex overflow-clip">
+              <h1 className="text-sm md:text-md lg:text-base">
+                Fort Carson, CO - Fort Hood, TX
+              </h1>
             </div>
           </div>
         </div>
@@ -92,10 +96,12 @@ const Experience = () => {
             className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
-              <h1>January 2017 - May 2019</h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                January 2017 - May 2019
+              </h1>
             </div>
             <div className="flex">
-              <h1> Fort Polk, LA </h1>
+              <h1 className="text-sm md:text-md lg:text-base"> Fort Polk, LA </h1>
             </div>
           </div>
         </div>
@@ -135,10 +141,12 @@ const Experience = () => {
             className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
-              <h1> January 2016 - January 2017</h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                January 2016 - January 2017
+              </h1>
             </div>
             <div className="flex">
-              <h1> Fort Polk, LA</h1>
+              <h1 className="text-sm md:text-md lg:text-base"> Fort Polk, LA</h1>
             </div>
           </div>
         </div>
@@ -178,10 +186,12 @@ const Experience = () => {
             className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
           >
             <div className="flex">
-              <h1> July 2014 - November 2015 </h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                July 2014 - November 2015
+              </h1>
             </div>
             <div className="flex">
-              <h1>Fort Worth, TX</h1>
+              <h1 className="text-sm md:text-md lg:text-base">Fort Worth, TX</h1>
             </div>
           </div>
         </div>
