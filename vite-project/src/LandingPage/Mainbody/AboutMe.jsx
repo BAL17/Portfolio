@@ -10,7 +10,7 @@ const AboutMe = () => {
       >
         <div className=" flex items-center justify-center md:w-1/2 lg:w-1/2 h-full p-2">
           <div className="flex  flex-col object-center object-cover w-full max-h-screen border-2 border-borderbot mt-10 sm:mt-10">
-            <img src={ME3} className="w-full h-1/2"></img>
+            <img src={ME} className="w-full h-1/2"></img>
           </div>
         </div>
         <div className="flex flex-col md:w-1/2 lg:w-1/2 h-full justify-center gap-2 lg:gap-8 items-center mb-24">
