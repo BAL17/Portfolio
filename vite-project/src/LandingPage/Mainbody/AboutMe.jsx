@@ -1,4 +1,3 @@
-import ME3 from "../../assets/pic/IMG_4141.jpg";
 import ME from "../../assets/pic/Brandon-Stegall-11182022-1.jpg";
 const AboutMe = () => {
   return (

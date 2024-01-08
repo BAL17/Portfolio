@@ -55,7 +55,7 @@ const Experience = () => {
             </div>
             <div className="flex overflow-clip">
               <h1 className="text-sm md:text-md lg:text-base">
-                Fort Carson, CO - Fort Hood, TX
+                Fort Carson, CO - Fort Cavazos, TX
               </h1>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Experience = () => {
           </div>
 
           <div id="cardTwoDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5 font-body">
+            <li className="ml-5 text-text font-body">
               Led and mentored more than 5 engineer teams, conducted
               comprehensive technical training sessions, fostered effective
               communication, and drove significant operational efficiency
@@ -101,7 +101,10 @@ const Experience = () => {
               </h1>
             </div>
             <div className="flex">
-              <h1 className="text-sm md:text-md lg:text-base"> Fort Polk, LA </h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                {" "}
+                Fort Johnson, LA{" "}
+              </h1>
             </div>
           </div>
         </div>
@@ -122,17 +125,18 @@ const Experience = () => {
 
             <div className="flex">
               <span className="text-xl mr-2 text-accent font-bold">
-                Combat Engineer
+                Operations Associate
               </span>
             </div>
           </div>
 
           <div id="combatEngineerDesc" className="w-full h-fit mt-3 ">
             <li className="ml-5 text-text font-body ">
-              Enhanced technical engineering proficiency through the application
-              of advanced calculations, resulting in improved fortifications,
-              the design of field structures, and the production of precise
-              topographic maps vital for construction projects.
+              Administered information and training records for a workforce of
+              over 120 employees, utilizing proprietary software. Coordinated
+              travel logistics for training events and tracked and completed
+              various administrative actions, including PTO requests, document
+              processing, and promotions.
             </li>
           </div>
 
@@ -146,7 +150,10 @@ const Experience = () => {
               </h1>
             </div>
             <div className="flex">
-              <h1 className="text-sm md:text-md lg:text-base"> Fort Polk, LA</h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                {" "}
+                Fort Johnson, LA
+              </h1>
             </div>
           </div>
         </div>
@@ -191,7 +198,9 @@ const Experience = () => {
               </h1>
             </div>
             <div className="flex">
-              <h1 className="text-sm md:text-md lg:text-base">Fort Worth, TX</h1>
+              <h1 className="text-sm md:text-md lg:text-base">
+                Fort Worth, TX
+              </h1>
             </div>
           </div>
         </div>

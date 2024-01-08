@@ -1,4 +1,3 @@
-import React from "react";
 import GitHub from "../../assets/DevIcons/icons8-github.svg";
 import Gmail from "../../assets/ContactSectionIcons/icons8-gmail.svg";
 import LinkedIn from "../../assets/ContactSectionIcons/icons8-linkedin.svg";
@@ -58,7 +57,7 @@ const Contact = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/brandonstegall817/"
+            href="https://www.linkedin.com/in/brandonwstegall/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -69,7 +68,7 @@ const Contact = () => {
               <span className="flex items-center gap-2 h-8 w-8">
                 <img src={LinkedIn} loading="lazy" alt="LinkedIn" />
                 <h2 className="text-base md:text-lg lg:text-xl">
-                  linkedin.com/in/brandonstegall817
+                  linkedin.com/in/brandonwstegall
                 </h2>
               </span>
             </div>
