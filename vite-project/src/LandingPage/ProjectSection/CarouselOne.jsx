@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react'
+import {useState} from 'react'
 //IMPORTING IMGS FOR INSIGHT
 import LoginPage from "../../assets/InsightLMS/LoginPage.png";
 import AdminPage from "../../assets/InsightLMS/AdminPageLMS.png";

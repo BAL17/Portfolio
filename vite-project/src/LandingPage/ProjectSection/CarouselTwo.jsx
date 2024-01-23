@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import { useState} from "react";
 import RightArrow from "../../assets/ArrowRight.svg";
 import LeftArrow from "../../assets/ArrowLeft.svg";
 //import images for NVIDIA

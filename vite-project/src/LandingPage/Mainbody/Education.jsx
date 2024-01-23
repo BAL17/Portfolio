@@ -1,4 +1,3 @@
-import React from "react";
 import CCU from "../../assets/EducationIcons/Colorado_Christian_University.svg.png";
 import Gal from "../../assets/EducationIcons/galvanize_logomark.png";
 
@@ -50,7 +49,7 @@ const Education = () => {
             className="flex justify-between w-full h-fit bg-cardbg mt-3 p-3 font-body"
           >
             <div className="flex">
-              <h1> June 2020 - May 2025 </h1>
+              <h1> July 2020 - Dec 2025 </h1>
             </div>
             <div className="flex">
               <h1> Remote, USA </h1>
@@ -84,14 +83,7 @@ const Education = () => {
               Program
             </span>
 
-            {/* <li className="ml-3 text-sm">
-              18-week software engineering immersive program with over 1000+
-              hours of programming
-            </li>
-            <li className="ml-3 text-sm">
-              Developed expertise in Full-Stack development, primarily utilizing
-              JavaScript, React, Express, and PostgreSQL in an agile environment
-            </li> */}
+        
           </div>
 
           <div

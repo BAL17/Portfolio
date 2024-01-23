@@ -1,14 +1,11 @@
 import { useState } from "react";
 import RightArrow from "../../assets/ArrowRight.svg";
 import LeftArrow from "../../assets/ArrowLeft.svg";
-//import images for REI
-import PRODUCTS from "../../assets/REI/products.png";
-import TOPPAGE from "../../assets/REI/toppage.png";
-import CARTMOD from "../../assets/REI/addtocart.png";
-import BotLinks from "../../assets/REI/botRei.png";
+//import images for NVIDIA
+import Construction from "../../assets/underconstruction.png"
 
-const CarouselThree = () => {
-  const images = [TOPPAGE, CARTMOD, PRODUCTS, BotLinks];
+const CarouselFour = () => {
+  const images = [Construction];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextSlide = () => {
@@ -27,7 +24,7 @@ const CarouselThree = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
-          className="object-cover h-48 w-96"
+          className="object-fill h-48 w-96" // fill to cover when pictures are added **change
           loading="lazy"
         />
         <div className="flex justify-between mt-1">
@@ -39,4 +36,4 @@ const CarouselThree = () => {
   );
 };
 
-export default CarouselThree;
+export default CarouselFour;

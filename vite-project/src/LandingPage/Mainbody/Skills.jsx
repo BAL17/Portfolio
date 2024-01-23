@@ -20,12 +20,10 @@ import SLACK from "../../assets/DevIcons/icons8-slack.svg";
 import VITEST from "../../assets/DevIcons/vitest.svg";
 import WP from "../../assets/DevIcons/icons8-webpack.svg";
 import GITHUB from "../../assets/DevIcons/icons8-github.svg";
+import TYPESCRIPT from "../../assets/DevIcons/icons8-typescript.svg";
 
 const Skills = () => {
-  const deviconStyling = {
-    height: '50px',
-    width: '50px'
-  }
+  
 
   return (
     <>
@@ -64,11 +62,21 @@ const Skills = () => {
 
             <div className="flex flex-col items-center">
               <img
+                src={TYPESCRIPT}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                TypeScript
+              </h3>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img
                 src={JS}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                JavaScript ES6+
+                JavaScript
               </h3>
             </div>
 
@@ -137,28 +145,36 @@ const Skills = () => {
                 src={NODE}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">NodeJS</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                NodeJS
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={EXP}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">ExpressJS</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                ExpressJS
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={PSQL}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">PostgresSQL</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                PostgresSQL
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={MGDB}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">MongoDB</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                MongoDB
+              </h3>
             </div>
           </div>
         </div>
@@ -180,21 +196,27 @@ const Skills = () => {
                 src={DOCKER}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Docker</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Docker
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={VITEST}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Vitest</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Vitest
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={WP}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Webpack</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Webpack
+              </h3>
             </div>
           </div>
         </div>
@@ -215,21 +237,27 @@ const Skills = () => {
                 src={GITLAB}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">GitLab</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                GitLab
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={JIRA}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Jira</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Jira
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={SLACK}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Slack</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Slack
+              </h3>
             </div>
           </div>
         </div>
@@ -249,35 +277,45 @@ const Skills = () => {
                 src={MACOS}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">MacOS</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                MacOS
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={LINUX}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Linux</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Linux
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={WINDOWS}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Windows</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Windows
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={GIT}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">GIT</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                GIT
+              </h3>
             </div>
             <div className="flex flex-col items-center">
               <img
                 src={GITHUB}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">Github</h3>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Github
+              </h3>
             </div>
           </div>
         </div>
