@@ -4,7 +4,7 @@ import CarouselOne from "../ProjectSection/CarouselOne";
 import CarouselTwo from "../ProjectSection/CarouselTwo";
 import CarouselThree from "../ProjectSection/CarouselThree";
 import CarouselFour from "../ProjectSection/CarouselFour";
-import CarouselFive from "../ProjectSection/CarouselFive";
+// import CarouselFive from "../ProjectSection/CarouselFive";
 
 const ProjectDisplay = () => {
   const iconStyling = {
@@ -168,11 +168,12 @@ const ProjectDisplay = () => {
               </a>
             </div>
           </div>
+          
         </div>
         {/* Second Row */}
 
-        <div className="flex flex-col max-w-screen-md md:max-w-screen-lg lg:max-w-screen-2xl max-h-fit items-center  md:flex-col lg:flex-row gap-3">
-          {/* PearScriptStudio CARD  */}
+        {/* <div className="flex flex-col max-w-screen-md md:max-w-screen-lg lg:max-w-screen-2xl max-h-fit items-center  md:flex-col lg:flex-row gap-3"> */}
+          {/* PearScriptStudio CARD 
           <div
             id="PearScriptCard"
             className="flex flex-col w-5/6  border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
@@ -217,9 +218,9 @@ const ProjectDisplay = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
 
-          {/* PassVault CARD  */}
+          {/* {/* PassVault CARD 
           <div
             id="insightCard"
             className="flex flex-col w-5/6  border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
@@ -242,7 +243,7 @@ const ProjectDisplay = () => {
                 className="flex justify-center w-full h-fit mt-3 "
               >
                 <li className="text-md ml-3 mb-3 font-body">
-                  Simple Password Manager Application lorem
+                  Simple Password Manager Application
                 </li>
               </div>
             </div>
@@ -251,7 +252,7 @@ const ProjectDisplay = () => {
               id="PassVaultFooter"
               className="flex items-center justify-between w-full h-fit bg-cardbg mt-3 p-3 font-body"
             >
-              <h1> TBD </h1>
+              <h1> In progess... </h1>
               <a
                 href="https://github.com/BAL17/PassVault"
                 target="_blank"
@@ -262,9 +263,9 @@ const ProjectDisplay = () => {
                   <img src={sourceCode} style={iconStyling}></img>
                 </div>
               </a>
-            </div>
-          </div>
-        </div>
+            </div> 
+          </div> 
+        </div> */}
       </div>
     </div>
   );

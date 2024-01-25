@@ -21,6 +21,12 @@ export default {
         cardbg: "#c8d2db",
         borderbot: "#DDDDDD",
         headerbg: "#64748b",
+        //dark mode from realtimecolors
+        // text: "#eaf3f3",
+        // background: "#061011",
+        // primary: "#8edfe4",
+        // secondary: "#12838b",
+        // accent: "#0de8f6",
       },
       screens: {
         xs: "380px",
