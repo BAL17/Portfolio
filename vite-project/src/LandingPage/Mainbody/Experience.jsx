@@ -46,7 +46,7 @@ const Experience = () => {
 
           <div
             id="cardOneFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body text-text"
           >
             <div className="flex overflow-clip">
               <h1 className="text-sm md:text-md lg:text-base">
@@ -72,7 +72,7 @@ const Experience = () => {
           >
             <div className="flex items-center gap-2 ">
               <img src={USArmy}></img>
-              <span className="text-xl">U.S. Army</span>
+              <span className="text-xl text-text">U.S. Army</span>
             </div>
 
             <div className="flex">
@@ -93,7 +93,7 @@ const Experience = () => {
 
           <div
             id="cardTwoFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body text-text"
           >
             <div className="flex">
               <h1 className="text-sm md:text-md lg:text-base">
@@ -142,7 +142,7 @@ const Experience = () => {
 
           <div
             id="combatEngineerFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body text-text"
           >
             <div className="flex">
               <h1 className="text-sm md:text-md lg:text-base">
@@ -151,7 +151,6 @@ const Experience = () => {
             </div>
             <div className="flex">
               <h1 className="text-sm md:text-md lg:text-base">
-                {" "}
                 Fort Johnson, LA
               </h1>
             </div>
@@ -169,7 +168,7 @@ const Experience = () => {
           >
             <div className="flex items-center gap-3">
               <img src={Tangs} className="ml-2"></img>
-              <span className="text-xl">Tang's Pacific Bistro</span>
+              <span className="text-xl text-text">Tang's Pacific Bistro</span>
             </div>
 
             <div className="flex">
@@ -180,7 +179,7 @@ const Experience = () => {
           </div>
 
           <div id="tangsDesc" className="w-full h-fit mt-3 ">
-            <li className="ml-5 font-body">
+            <li className=" text-text ml-5 font-body">
               Delivered exceptional customer service while efficiently managing
               restaurant resources, overseeing payment collection, and
               facilitating reservations, ensuring a seamless dining experience
@@ -190,7 +189,7 @@ const Experience = () => {
 
           <div
             id="tangsFooter"
-            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body"
+            className="w-full h-fit bg-cardbg mt-3 p-3 flex justify-between font-body text-text"
           >
             <div className="flex">
               <h1 className="text-sm md:text-md lg:text-base">

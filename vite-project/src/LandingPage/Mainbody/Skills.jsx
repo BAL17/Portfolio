@@ -49,7 +49,7 @@ const Skills = () => {
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
+          <div className="flex justify-center items-center gap-2 md:gap-3 lg:gap-6 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
               <img
                 src={ReactIcon}
