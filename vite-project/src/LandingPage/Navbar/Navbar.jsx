@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="h-10 w-full sm:h-10 md:h-10 lg:hidden font-heading bg-black text-white fixed  shadow-lg transition-transform transform duration-300 ease-in-out border-b-2">
         <div className="flex items-center justify-around  p-2 ">
           <Link to="About" spy={true} smooth={true} offset={0} duration={500}>
-            <div className="flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent">
+            <div className="flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent">
               <h1>About</h1>
             </div>
           </Link>
@@ -20,7 +20,7 @@ const NavBar = () => {
           >
             <div
               id="experience"
-              className=" flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent "
+              className=" flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent "
             >
               <h1>Experience</h1>
             </div>
@@ -35,7 +35,7 @@ const NavBar = () => {
           >
             <div
               id="projects"
-              className=" flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent "
+              className=" flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent "
             >
               <h1>Projects</h1>
             </div>
@@ -60,7 +60,7 @@ const NavBar = () => {
           <Link to="Skills" spy={true} smooth={true} offset={0} duration={500}>
             <div
               id="skills"
-              className="flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent"
+              className="flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent"
             >
               <h1>Skills</h1>
             </div>
@@ -74,7 +74,7 @@ const NavBar = () => {
           >
             <div
               id="education"
-              className="flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent"
+              className="flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent"
             >
               <h1>Education</h1>
             </div>
@@ -82,7 +82,7 @@ const NavBar = () => {
           <Link to="Contact" spy={true} smooth={true} offset={0} duration={500}>
             <div
               id="contact"
-              className="flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent "
+              className="flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent "
             >
               <h1>Contact</h1>
             </div>
@@ -95,7 +95,7 @@ const NavBar = () => {
           >
             <div
               id="resume"
-              className="flex h-10 w-full text-md xs:text-md sm:text-lg hover:text-accent"
+              className="flex h-10 w-full text-xs xs:text-md sm:text-lg hover:text-accent"
             >
               <h1>Resume</h1>
             </div>
