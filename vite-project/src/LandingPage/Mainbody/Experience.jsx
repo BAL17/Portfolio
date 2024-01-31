@@ -132,11 +132,10 @@ const Experience = () => {
 
           <div id="combatEngineerDesc" className="w-full h-fit mt-3 ">
             <li className="ml-5 text-text font-body ">
-              Administered information and training records for a workforce of
-              over 120 employees, utilizing proprietary software. Coordinated
-              travel logistics for training events and tracked and completed
-              various administrative actions, including PTO requests, document
-              processing, and promotions.
+              Administered and maintained information and training records for
+              120+ employees using proprietary software. Coordinated travel
+              logistics for training events and executed various administrative
+              actions, optimizing processes and promoting efficiency.
             </li>
           </div>
 

@@ -33,11 +33,19 @@ const CarouselOne = () => {
         src={images[currentImageIndex]}
         alt={`Slide ${currentImageIndex + 1}`}
         className="object-cover h-48 w-96"
-        loading='lazy'
+        loading="lazy"
       />
       <div className="flex justify-between mt-1">
-        <img onClick={prevSlide} src={LeftArrow}></img>
-        <img onClick={nextSlide} src={RightArrow}></img>
+        <img
+          className="hover:cursor-pointer"
+          onClick={prevSlide}
+          src={LeftArrow}
+        ></img>
+        <img
+          className="hover:cursor-pointer"
+          onClick={nextSlide}
+          src={RightArrow}
+        ></img>
       </div>
     </div>
   );
