@@ -1,8 +1,7 @@
 import { useState } from "react";
 import RightArrow from "../../assets/ArrowRight.svg";
 import LeftArrow from "../../assets/ArrowLeft.svg";
-//import images for NVIDIA
-import Construction from "../../assets/underconstruction.png"
+import Construction from "../../assets/under-construction-yom.png";
 
 const CarouselFour = () => {
   const images = [Construction];
@@ -24,7 +23,7 @@ const CarouselFour = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
-          className="object-fill h-48 w-96" // fill to cover when pictures are added **change
+          className="object-cover h-48 w-96" // fill to cover when pictures are added h-48 w-96**change
           loading="lazy"
         />
         <div className="flex justify-between mt-1">

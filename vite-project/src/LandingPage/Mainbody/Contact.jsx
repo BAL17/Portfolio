@@ -16,7 +16,7 @@ const Contact = () => {
 
       {/* DIV FOR ICONS */}
       <div className="flex justify-center w-full text-xl font-body">
-        <div className="flex flex-col p-3 border-2 shadow-lg rounded-lg bg-secbg gap-8 w-5/6 sm:w-1/2 md:w-1/2 lg:w-1/2">
+        <div className="flex flex-col p-3 border-2 shadow-lg rounded-lg bg-secbg gap-8 w-5/6 sm:w-1/2 md:w-1/2 lg:w-1/2 text-text">
           {/* GMAIL */}
           <a
             href="mailto:brandonws20@gmail.com"
@@ -49,7 +49,7 @@ const Contact = () => {
               <span className="flex items-center gap-2 h-8 w-8">
                 <img src={GitHub} loading="lazy" alt="GitHub" />
                 <h2 className=" text-base md:text-lg lg:text-xl">
-                  github.com/BAL17
+                  github/BAL17
                 </h2>
               </span>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
               <span className="flex items-center gap-2 h-8 w-8">
                 <img src={LinkedIn} loading="lazy" alt="LinkedIn" />
                 <h2 className="text-base md:text-lg lg:text-xl">
-                  linkedin.com/in/brandonwstegall
+                  linkedin/brandonwstegall
                 </h2>
               </span>
             </div>
