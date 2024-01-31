@@ -23,7 +23,7 @@ const CarouselFour = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
-          className="object-fit h-48 w-96" // fill to cover when pictures are added h-48 w-96**change
+          className="object-cover h-48 w-96" // fill to cover when pictures are added h-48 w-96**change
           loading="lazy"
         />
         <div className="flex justify-between mt-1">

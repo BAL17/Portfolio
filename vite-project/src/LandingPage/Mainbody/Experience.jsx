@@ -17,7 +17,7 @@ const Experience = () => {
         {/* ENGINEERING MANAGER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardOne"
-          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-11/12 md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="armyCardOneHeader"
@@ -64,7 +64,7 @@ const Experience = () => {
         {/* TEAM LEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="armyCardTwo"
-          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden "
+          className="flex flex-col justify-center w-11/12 md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="armyCardTwoHeader"
@@ -112,7 +112,7 @@ const Experience = () => {
         {/* COMBAT ENGINEER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="combatEngineerCard"
-          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-11/12 md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="combatEngineerHeader"
@@ -160,7 +160,7 @@ const Experience = () => {
         {/* TANGS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
         <div
           id="tangsCard"
-          className="flex flex-col justify-center w-fit md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
+          className="flex flex-col justify-center w-11/12 md:w-4/6 lg:w-1/2 h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden"
         >
           <div
             id="tangsHeader"
