@@ -69,7 +69,7 @@ const ProjectDisplay = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="flex gap-2 items-center">
-                    <h3>Source Code</h3>
+                    <h3 className="text-accent hover:text-text">Source Code</h3>
                     <img src={sourceCode2} style={iconStyling}></img>
                   </div>
                 </a>
@@ -117,7 +117,7 @@ const ProjectDisplay = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="flex gap-2 items-center">
-                    <h3>Source Code</h3>
+                    <h3 className="text-accent hover:text-text">Source Code</h3>
                     <img src={sourceCode2} style={iconStyling}></img>
                   </div>
                 </a>
@@ -168,7 +168,7 @@ const ProjectDisplay = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="flex gap-2 items-center">
-                    <h3>Source Code</h3>
+                    <h3 className="text-accent hover:text-text">Source Code</h3>{" "}
                     <img src={sourceCode2} style={iconStyling}></img>
                   </div>
                 </a>
@@ -217,7 +217,7 @@ const ProjectDisplay = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="flex gap-2 items-center">
-                    <h3>Source Code</h3>
+                    <h3 className="text-accent hover:text-text">Source Code</h3>{" "}
                     <img src={sourceCode2} style={iconStyling}></img>
                   </div>
                 </a>
