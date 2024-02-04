@@ -20,7 +20,7 @@ const Education = () => {
         {/* CCU CARD  */}
         <div
           id="CCUCard"
-          className="flex flex-col w-11/12 md:max-w-sm lg:max-w-md h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
+          className="flex flex-col justify-between w-11/12 h-[13.5rem] md:h-[12rem] lg:h-[13rem]  md:max-w-sm lg:max-w-md  border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
         >
           <div
             id="ccuCardHeader"
@@ -34,13 +34,9 @@ const Education = () => {
             </div>
           </div>
 
-          <div
-            id="CCUCardDesc"
-            className="flex justify-center w-full h-fit mt-3 font-body "
-          >
-            <span className="flex text-md ml-2 mb-3">
-              Bachelor of Science in Information Systems Management: System
-              Analyst
+          <div id="CCUCardDesc" className="flex w-full h-fit mt-3  font-body ">
+            <span className="flex text-md ml-5 mb-3">
+              Bachelor of Science in Computer Science
             </span>
           </div>
 
@@ -60,7 +56,7 @@ const Education = () => {
         {/* GALVANIZE OPERATION LEVEL UP */}
         <div
           id="GalvanizeCard"
-          className="flex flex-col w-11/12	md:max-w-sm lg:max-w-md h-fit border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
+          className="flex flex-col justify-between  w-11/12 h-[13.5rem] md:h-[12rem] lg:h-[13rem]  md:max-w-sm lg:max-w-md  border-2 rounded-lg shadow-lg bg-secbg overflow-hidden text-text"
         >
           <div
             id="galvanizeHeader"
@@ -78,7 +74,7 @@ const Education = () => {
             id="GalvanizeDesc"
             className="flex justify-center w-full h-fit mt-3 font-body "
           >
-            <span className="flex text-md ml-2 mb-3">
+            <span className="flex text-md ml-5 mb-3">
               Operation Level-Up: Advanced Software Engineering Immersive
               Program
             </span>

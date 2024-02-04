@@ -23,8 +23,6 @@ import GITHUB from "../../assets/DevIcons/icons8-github.svg";
 import TYPESCRIPT from "../../assets/DevIcons/icons8-typescript.svg";
 
 const Skills = () => {
-  
-
   return (
     <>
       <div
@@ -243,11 +241,20 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center">
               <img
-                src={JIRA}
+                src={GITHUB}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                Jira
+                GitHub
+              </h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={GIT}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Git
               </h3>
             </div>
             <div className="flex flex-col items-center">
@@ -257,6 +264,15 @@ const Skills = () => {
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
                 Slack
+              </h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={JIRA}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                Jira
               </h3>
             </div>
           </div>
@@ -297,24 +313,6 @@ const Skills = () => {
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
                 Windows
-              </h3>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                src={GIT}
-                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
-              ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                GIT
-              </h3>
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                src={GITHUB}
-                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
-              ></img>
-              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                Github
               </h3>
             </div>
           </div>
