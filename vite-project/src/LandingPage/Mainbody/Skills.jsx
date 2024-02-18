@@ -21,7 +21,8 @@ import VITEST from "../../assets/DevIcons/vitest.svg";
 import WP from "../../assets/DevIcons/icons8-webpack.svg";
 import GITHUB from "../../assets/DevIcons/icons8-github.svg";
 import TYPESCRIPT from "../../assets/DevIcons/icons8-typescript.svg";
-
+import PYTHON from "../../assets/DevIcons/icons8-python.svg";
+import SQL from "../../assets/DevIcons/sql.svg";
 const Skills = () => {
   return (
     <>
@@ -36,25 +37,25 @@ const Skills = () => {
 
       {/* DIV THAT HOLDS ALL THE CARDS  */}
       <div className="flex flex-col w-full items-center gap-6 md:gap-6 lg:gap-10 ">
-        {/* FRONT END */}
+        {/* Languages */}
         <div
-          id="frontEnd"
+          id="lang"
           className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
         >
-          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
-            <h1 className="flex text-2xl lg:p-2 text-text font-heading">
-              FRONTEND
+          <div className="flex justify-center w-full border-b-2 border-borderbot">
+            <h1 className="flex text-2xl p-2 text-text font-heading">
+              PROGRAMMING LANGUAGES
             </h1>
           </div>
 
-          <div className="flex justify-center items-center gap-2 md:gap-3 lg:gap-6 mt-3 font-body shrink">
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
             <div className="flex flex-col items-center">
               <img
-                src={ReactIcon}
+                src={JS}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                React
+                JavaScript
               </h3>
             </div>
 
@@ -70,11 +71,44 @@ const Skills = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src={JS}
+                src={PYTHON}
                 className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
               ></img>
               <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
-                JavaScript
+                Python
+              </h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={SQL}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                SQL
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        {/* FRONT END */}
+        <div
+          id="frontEnd"
+          className="w-5/6 md:w-5/6 lg:w-4/6 flex flex-col p-1 md:p-2 lg:p-2 border-2 shadow-lg bg-secbg overflow-hidden rounded-lg"
+        >
+          <div className="flex justify-center w-full text-xl border-b-2 border-borderbot">
+            <h1 className="flex text-2xl lg:p-2 text-text font-heading">
+              FRONTEND
+            </h1>
+          </div>
+
+          <div className="flex justify-center items-center gap-2 md:gap-8 lg:gap-12 mt-3 font-body shrink">
+            <div className="flex flex-col items-center">
+              <img
+                src={ReactIcon}
+                className="w-10 h-10 md:w-16 md:h-16 lg:w-12 lg:h-12 object-scale-down"
+              ></img>
+              <h3 className="text-text text-[7px] md:text-lg lg:text-xl">
+                React
               </h3>
             </div>
 
